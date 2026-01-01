@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-20 03:01+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: static/assets/js/pages/form-validation.js:16
+msgid "Please fill out this field."
+msgstr "لطفاً این بخش را پر کنید."
+
+#: static/assets/js/pages/form-validation.js:19
+msgid "Please enter a valid email address."
+msgstr "لطفاً یک کارمند فعال را انتخاب کنید."
+
+#: static/assets/js/pages/form-validation.js:23
+msgid "Please make sure the fields match."
+msgstr "لطفاً اطمینان حاصل کنید که اطلاعات مطابقت دارند."
+
+#: static/assets/js/plugins/bouncer.min.js:31
+msgid "Please select at least one value."
+msgstr "لطفاً حداقل یک گزینه را انتخاب کنید."
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "ui-dropdown-panel-focus-child-missing-focus"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "enableplaceholder-deprecated-text-option"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "matcher-pattern-deprecated-attributes-style-key"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "matcher-pattern-deprecated-attributes-class-key"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "matcher-pattern-missing-key-or-value"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "domconverter-unsafe-attribute-detected"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "domconverter-invalid-attribute-detected"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "domconverter-transparent-rendering-unsupported-in-editing-pipeline"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "domconverter-unsafe-script-element-detected"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "domconverter-unsafe-style-element-detected"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "datacontroller-get-detached-root"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "batch-constructor-deprecated-string-type"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "batch-type-deprecated"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "writer-updatemarker-reconvert-using-editingcontroller"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "toolbarview-line-break-ignored-when-grouping-items"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "toolbarview-item-unavailable"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "toolbarview-nested-toolbar-dropdown-missing-label"
+msgstr ""
+
+#: static/assets/js/plugins/ckeditor/classic/ckeditor.js:6
+msgid "ui-dropdown-focus-child-on-open-child-missing-focus"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "expected"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "fn"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "promiseFn"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "error"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "regexp"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "Reduce of empty array with no initial value"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "Accessors not supported"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "includes"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "flags"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "iterator"
+msgstr ""
+
+#: static/assets/js/plugins/pdfmake.min.js:2
+msgid "toStringTag"
+msgstr ""

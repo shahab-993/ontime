@@ -1,0 +1,75 @@
+@charset "utf-8"; /* custom-rtl.css */
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Supports all weights from 100 to 900 */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+/* 1) Clear out the default divider */
+[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+}
+
+
+/* 2) Inject a FontAwesome chevron and rotate it 180° */
+[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+    font-family: "Font Awesome 5 Free", serif; /* or whatever you’re using */
+    font-weight: 600; /* for solid style */
+    content: "\f054"; /* fa-chevron-right */
+    display: inline-block;
+    transform: rotate(180deg) scale(0.7);
+    margin-left: 0.6em;
+    margin-right: -0.2em;
+}
+
+
+[data-pc-theme_contrast=true] {
+    --bs-body-bg: #ffffff;
+    --pc-sidebar-background: transparent;
+    --pc-sidebar-active-color: #0d6efd;
+    --pc-sidebar-shadow: -1px 0 3px 0px #dbe0e5;
+    --pc-sidebar-border: none;
+    --pc-card-box-shadow: 0px 8px 24px rgba(27, 46, 94, 0.08);
+}
+
+[data-pc-theme=dark] {
+  --bs-body-bg: #131920;
+  --bs-body-bg-rgb: 19, 25, 32;
+  --pc-heading-color: rgba(163, 161, 161, 0.8);
+  --pc-sidebar-background: transparent;
+  --pc-sidebar-color: rgba(255, 255, 255, 0.5);
+  --pc-sidebar-shadow: none;
+  --pc-sidebar-color-rgb: 255, 255, 255;
+  --pc-sidebar-border: 1px dashed #242d39;
+  --pc-sidebar-submenu-border-color: var(--bs-gray-600);
+  --pc-sidebar-caption-color: rgba(255, 255, 255, 0.8);
+  --pc-sidebar-user-background: #1b232d;
+  --pc-header-background: rgba(var(--bs-body-bg-rgb), 0.7);
+  --pc-header-color: #6f747f;
+  --pc-header-shadow: none;
+  --pc-active-background: #19212a;
+  --pc-card-box-shadow: none;
+  --pc-header-submenu-background: #263240;
+  --pc-header-submenu-color: var(--bs-body-color);
+  --bs-heading-color: #fafafa;
+  --bs-body-color: #bfbfbf;
+  --bs-body-color-rgb: to-rgb(#bfbfbf);
+  --bs-border-color: #303f50;
+  --ck-color-image-caption-background: #1b232d;
+  --ck-color-image-caption-text: #bfbfbf;
+}
+
+
+[dir="rtl"] .btn i,
+[dir="rtl"] .fa, [dir="rtl"] .fas, [dir="rtl"] .far, [dir="rtl"] .fab {
+    vertical-align: middle;
+    line-height: normal; /* Reset line-height to avoid font interference */
+    display: inline-block; /* Ensure icons behave as inline-block for consistent alignment */
+}

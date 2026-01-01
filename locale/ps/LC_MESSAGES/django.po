@@ -1,0 +1,3638 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-26 03:07+0430\n"
+"PO-Revision-Date: 2025-04-22 12:00+0000\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Pashto\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: attendance/models.py:11
+msgid "Attendance"
+msgstr "حاضرۍ"
+
+#: attendance/models.py:12
+msgid "Registration"
+msgstr "ثبت نام"
+
+#: attendance/models.py:15
+msgid "Enabled"
+msgstr "فعال"
+
+#: attendance/models.py:16
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: attendance/models.py:20 templates/attendance/add_device.html:51
+#: templates/attendance/edit_device.html:42
+#: templates/attendance/view_device.html:84
+msgid "Device ID"
+msgstr "د وسیلې آی ډي"
+
+#: attendance/models.py:23
+msgid "Your internal device code, e.g. \"DEV123\""
+msgstr "ستاسو د وسیلې داخلي کوډ، لکه «DEV123»"
+
+#: attendance/models.py:27 templates/attendance/view_device.html:88
+msgid "Device Name"
+msgstr "د وسیلې نوم"
+
+#: attendance/models.py:29
+msgid "E.g. \"Front Gate Scanner\""
+msgstr "لکه «د دروازې سکینر»"
+
+#: attendance/models.py:33 templates/attendance/add_device.html:61
+#: templates/attendance/devices.html:131
+#: templates/attendance/edit_device.html:59
+#: templates/attendance/view_device.html:97 templates/users/logs.html:57
+#: templates/users/logs.html:96
+msgid "IP Address"
+msgstr "آی پي پته"
+
+#: attendance/models.py:36
+msgid "IPv4 or IPv6 address of the device"
+msgstr "د وسیلې IPv4 یا IPv6 پته"
+
+#: attendance/models.py:40 templates/attendance/add_device.html:69
+#: templates/attendance/devices.html:141
+#: templates/attendance/edit_device.html:68
+#: templates/attendance/view_device.html:101
+msgid "Port"
+msgstr "پورټ"
+
+#: attendance/models.py:42
+msgid "Typically 4370 for ZKTeco devices"
+msgstr "معمولاً ۴۳۷۰ د ZKTeco وسیلو لپاره"
+
+#: attendance/models.py:46 templates/attendance/add_device.html:74
+#: templates/attendance/edit_device.html:79
+#: templates/attendance/view_device.html:110
+msgid "Communication Key"
+msgstr "د اړیکو کیلي"
+
+#: attendance/models.py:48
+msgid "Device communication key (numeric)"
+msgstr "د وسیلې د اړیکو کیلي (شمېره)"
+
+#: attendance/models.py:52 attendance/models.py:194
+#: templates/attendance/employee_leaves.html:75
+msgid "Type"
+msgstr "ډول"
+
+#: attendance/models.py:59 attendance/models.py:201 attendance/models.py:280
+#: attendance/models.py:366 templates/attendance/add_device.html:89
+#: templates/attendance/daily_leaves.html:70
+#: templates/attendance/daily_leaves.html:134
+#: templates/attendance/devices.html:151
+#: templates/attendance/edit_device.html:97
+#: templates/attendance/employee_leaves.html:80
+#: templates/attendance/employee_leaves.html:158
+#: templates/attendance/view_device.html:123
+#: templates/employees/employees.html:62
+#: templates/reports/employee_report_form.html:102
+#: templates/shifts/view_shift.html:80 templates/users/users.html:58
+msgid "Status"
+msgstr "حالت"
+
+#: attendance/models.py:63
+msgid "Whether this device is active or not"
+msgstr "آیا دا وسیله فعاله ده که نه"
+
+#: attendance/models.py:68 employee/models.py:248
+#: templates/attendance/add_device.html:100
+#: templates/attendance/add_public_holiday.html:67
+#: templates/attendance/edit_device.html:106
+#: templates/attendance/public_holidays.html:69
+#: templates/attendance/view_device.html:127
+#: templates/employees/employee_profile.html:365
+#: templates/employees/employee_profile.html:385
+msgid "Description"
+msgstr "توضیحات"
+
+#: attendance/models.py:73 attendance/models.py:141 attendance/models.py:217
+#: employee/models.py:18 employee/models.py:76 employee/models.py:104
+#: employee/models.py:224
+msgid "Created At"
+msgstr "د جوړېدو نېټه"
+
+#: attendance/models.py:74 attendance/models.py:142 employee/models.py:19
+#: employee/models.py:77 employee/models.py:105 employee/models.py:225
+msgid "Updated At"
+msgstr "د تازه کولو نېټه"
+
+#: attendance/models.py:77 attendance/models.py:187
+#: templates/reports/check_attendance_form.html:121
+msgid "Device"
+msgstr "وسیله"
+
+#: attendance/models.py:78 templates/attendance/add_device.html:18
+#: templates/attendance/devices.html:4 templates/attendance/devices.html:65
+#: templates/attendance/devices.html:77
+#: templates/attendance/edit_device.html:14
+#: templates/attendance/view_device.html:36 templates/includes/sidebar.html:298
+msgid "Devices"
+msgstr "وسیلې"
+
+#: attendance/models.py:92 attendance/models.py:168
+#: templates/employees/employee_profile.html:431
+msgid "Fingerprint"
+msgstr "د ګوتې نښه"
+
+#: attendance/models.py:93 attendance/models.py:169
+#: templates/employees/employee_profile.html:433
+#: templates/employees/employee_profile.html:496
+msgid "Face"
+msgstr "مخ"
+
+#: attendance/models.py:94 attendance/models.py:170
+msgid "Iris"
+msgstr "سترګې"
+
+#: attendance/models.py:95
+msgid "RFID Card"
+msgstr "RFID کارت"
+
+#: attendance/models.py:98
+msgid "Right Thumb"
+msgstr "د ښي لاس ګوته"
+
+#: attendance/models.py:99
+msgid "Right Index"
+msgstr "د ښي لاس اشاره ګوته"
+
+#: attendance/models.py:100
+msgid "Right Middle"
+msgstr "د ښي لاس منځنۍ ګوته"
+
+#: attendance/models.py:101
+msgid "Right Ring"
+msgstr "د ښي لاس حلقوي ګوته"
+
+#: attendance/models.py:102
+msgid "Right Little"
+msgstr "د ښي لاس وړه ګوته"
+
+#: attendance/models.py:103
+msgid "Left Thumb"
+msgstr "د چپ لاس ګوته"
+
+#: attendance/models.py:104
+msgid "Left Index"
+msgstr "د چپ لاس اشاره ګوته"
+
+#: attendance/models.py:105
+msgid "Left Middle"
+msgstr "د چپ لاس منځنۍ ګوته"
+
+#: attendance/models.py:106
+msgid "Left Ring"
+msgstr "د چپ لاس حلقوي ګوته"
+
+#: attendance/models.py:107
+msgid "Left Little"
+msgstr "د چپ لاس وړه ګوته"
+
+#: attendance/models.py:113 attendance/models.py:179 attendance/models.py:257
+#: attendance/models.py:329 employee/models.py:228 employee/models.py:239
+#: templates/attendance/add_daily_leave.html:53
+#: templates/attendance/add_employee_leave.html:44
+#: templates/includes/sidebar.html:37
+#: templates/reports/attendance_report_form.html:41
+#: templates/reports/check_attendance_form.html:77
+#: templates/reports/daily_attendance_form.html:43
+#: templates/reports/make_absent_form.html:39
+#: templates/reports/make_present_form.html:39
+#: templates/reports/monthly_attendance_form.html:45 users/models.py:16
+msgid "Employee"
+msgstr "کارکوونکی"
+
+#: attendance/models.py:121
+msgid "Registered On Device"
+msgstr "په وسیله ثبت شوی"
+
+#: attendance/models.py:124
+msgid "Biometric Type"
+msgstr "د بایومتریک ډول"
+
+#: attendance/models.py:130
+msgid "Finger Position"
+msgstr "د ګوتې موقعیت"
+
+#: attendance/models.py:134
+msgid "Which finger (if applicable)"
+msgstr "کومه ګوته (که اړتیا وي)"
+
+#: attendance/models.py:137
+msgid "Template Data"
+msgstr "د قالب ډاټا"
+
+#: attendance/models.py:138
+msgid "Raw template blob or serialized string from device"
+msgstr "خام قالب ډاټا یا د وسیلې څخه سریال شوی متن"
+
+#: attendance/models.py:145
+msgid "Biometric Record"
+msgstr "بایومتریک ریکارډ"
+
+#: attendance/models.py:146
+msgid "Biometric Records"
+msgstr "بایومتریک ریکارډونه"
+
+#: attendance/models.py:164
+msgid "Clock In"
+msgstr "ننوتل"
+
+#: attendance/models.py:165
+msgid "Clock Out"
+msgstr "وتل"
+
+#: attendance/models.py:171
+msgid "Card/RFID"
+msgstr "کارت/RFID"
+
+#: attendance/models.py:172
+msgid "Password/PIN"
+msgstr "پټنوم"
+
+#: attendance/models.py:173
+msgid "Manual Entry"
+msgstr "لاسي ننوتل"
+
+#: attendance/models.py:190
+msgid "Event Time"
+msgstr "د پیښې وخت"
+
+#: attendance/models.py:191
+msgid "When the punch was recorded"
+msgstr "کله چې ننوتل یا وتل ثبت شول"
+
+#: attendance/models.py:198
+msgid "Clock-in or clock-out"
+msgstr "ننوتل یا وتل"
+
+#: attendance/models.py:206
+msgid "Attendance log status"
+msgstr "د حاضرۍ د لاګ حالت"
+
+#: attendance/models.py:210
+msgid "Verification Method"
+msgstr "د تصدیق طریقه"
+
+#: attendance/models.py:214
+msgid "Which modality or manual entry was used"
+msgstr "کومه طریقه یا لاسي ننوتل کارول شوي"
+
+#: attendance/models.py:220
+msgid "Attendance Log"
+msgstr "د حاضرۍ لاګ"
+
+#: attendance/models.py:221
+msgid "Attendance Logs"
+msgstr "د حاضرۍ لاګونه"
+
+#: attendance/models.py:239
+msgid "Pastime Leave"
+msgstr "د تفریح رخصتي"
+
+#: attendance/models.py:240
+msgid "Sick Leave"
+msgstr "د ناروغۍ رخصتي"
+
+#: attendance/models.py:241
+msgid "Maternity/Paternity Leave"
+msgstr "د زیږون رخصتي"
+
+#: attendance/models.py:242
+msgid "Emergency Leave"
+msgstr "ضروري رخصتي"
+
+#: attendance/models.py:243
+msgid "Salary Deduction"
+msgstr "د معاش کمښت"
+
+#: attendance/models.py:244
+msgid "Duty Assignment"
+msgstr "د خدمت رخصتي"
+
+#: attendance/models.py:245
+msgid "Hajj Leave"
+msgstr "د حج رخصتي"
+
+#: attendance/models.py:246 core/utils.py:783
+#: templates/reports/monthly_attendance_report.html:210
+#: templates/reports/monthly_attendance_report.html:224
+#: templates/reports/monthly_attendance_report.html:261
+msgid "Public Holiday"
+msgstr "عام رخصتي"
+
+#: attendance/models.py:247
+msgid "Considerations"
+msgstr "ملاحظات"
+
+#: attendance/models.py:250 attendance/models.py:321
+#: templates/attendance/daily_leaves.html:229
+#: templates/attendance/employee_leaves.html:253
+#: templates/attendance/employee_leaves.html:369
+msgid "Pending"
+msgstr "په انتظار"
+
+#: attendance/models.py:251 templates/attendance/employee_leaves.html:253
+#: templates/attendance/employee_leaves.html:370
+#: templates/attendance/employee_leaves.html:407
+msgid "Approved"
+msgstr "تایید شوی"
+
+#: attendance/models.py:252 attendance/models.py:323
+#: templates/attendance/daily_leaves.html:229
+#: templates/attendance/daily_leaves.html:322
+#: templates/attendance/employee_leaves.html:253
+#: templates/attendance/employee_leaves.html:371
+#: templates/attendance/employee_leaves.html:408
+msgid "Rejected"
+msgstr "رد شوی"
+
+#: attendance/models.py:260
+msgid "Type of Leave"
+msgstr "د رخصتۍ ډول"
+
+#: attendance/models.py:264 templates/attendance/add_employee_leave.html:78
+#: templates/attendance/add_public_holiday.html:52
+#: templates/attendance/employee_leaves.html:129
+#: templates/attendance/public_holidays.html:71
+#: templates/reports/permanent_absent_report.html:182
+msgid "Start Date"
+msgstr "د پیل نېټه"
+
+#: attendance/models.py:265 templates/attendance/add_employee_leave.html:83
+#: templates/attendance/add_public_holiday.html:57
+#: templates/attendance/employee_leaves.html:133
+#: templates/attendance/public_holidays.html:72
+#: templates/reports/permanent_absent_report.html:183
+msgid "End Date"
+msgstr "د پای نېټه"
+
+#: attendance/models.py:267
+msgid "Days Requested"
+msgstr "غوښتل شوې ورځې"
+
+#: attendance/models.py:269
+msgid "Number of working days taken"
+msgstr "د کاري ورځو شمېر اخیستل شوی"
+
+#: attendance/models.py:272 attendance/models.py:349
+#: templates/attendance/add_daily_leave.html:87
+#: templates/attendance/add_employee_leave.html:94
+#: templates/attendance/daily_leaves.html:68
+#: templates/attendance/daily_leaves.html:118
+#: templates/attendance/employee_leaves.html:137
+#: templates/employees/employee_profile.html:686
+msgid "Reason"
+msgstr "دلیل"
+
+#: attendance/models.py:273
+msgid "Optional justification or details"
+msgstr "اختیاري توجیه یا جزئیات"
+
+#: attendance/models.py:276 templates/attendance/add_employee_leave.html:99
+#: templates/attendance/employee_leaves.html:141
+msgid "Attachment"
+msgstr "ضمیمه"
+
+#: attendance/models.py:277
+msgid "Supporting document (e.g. doctor’s note)"
+msgstr "ملاتړي سند (لکه د ډاکټر یادداشت)"
+
+#: attendance/models.py:283 attendance/models.py:371
+#: templates/attendance/daily_leaves.html:126
+#: templates/attendance/employee_leaves.html:150
+msgid "Requested At"
+msgstr "د غوښتنې نېټه"
+
+#: attendance/models.py:287
+msgid "Processed By"
+msgstr "له خوا تصدیق شوی"
+
+#: attendance/models.py:288
+msgid "Supervisor or HR who approved/rejected"
+msgstr "سرپرست یا بشري سرچینې چې تایید یا رد کړي"
+
+#: attendance/models.py:291 attendance/models.py:375
+#: templates/attendance/daily_leaves.html:130
+#: templates/attendance/employee_leaves.html:154
+msgid "Processed At"
+msgstr "د تصدیق نېټه"
+
+#: attendance/models.py:296
+msgid "Employee Vacation"
+msgstr "د کارکوونکي رخصتي"
+
+#: attendance/models.py:297
+msgid "Employee Vacations"
+msgstr "د کارکوونکو رخصتۍ"
+
+#: attendance/models.py:316
+msgid "Clock-In Only"
+msgstr "یوازې ننوتل"
+
+#: attendance/models.py:317
+msgid "Clock-Out Only"
+msgstr "یوازې وتل"
+
+#: attendance/models.py:318
+msgid "Clock-In & Clock-Out"
+msgstr "ننوتل او وتل"
+
+#: attendance/models.py:322 templates/attendance/daily_leaves.html:229
+#: templates/attendance/daily_leaves.html:321
+msgid "Accepted"
+msgstr "منل شوی"
+
+#: attendance/models.py:334
+msgid "Date of Leave"
+msgstr "د رخصتۍ نېټه"
+
+#: attendance/models.py:344 templates/attendance/add_daily_leave.html:78
+#: templates/attendance/add_employee_leave.html:65
+#: templates/attendance/daily_leaves.html:67
+#: templates/attendance/daily_leaves.html:114
+#: templates/attendance/employee_leaves.html:121
+msgid "Leave Type"
+msgstr "د رخصتۍ ډول"
+
+#: attendance/models.py:358 employee/models.py:157
+#: templates/employees/add_employee.html:145
+#: templates/employees/edit_employee.html:127
+#: templates/includes/sidebar.html:39
+msgid "Head of Department"
+msgstr "د څانګې مشر"
+
+#: attendance/models.py:359
+msgid "Must be a user marked as head_of_dep"
+msgstr "باید یو کارن وي چې د څانګې د مشر په توګه نښه شوی وي"
+
+#: attendance/models.py:379 templates/includes/sidebar.html:187
+msgid "Daily Leave"
+msgstr "ورځنۍ رخصتي"
+
+#: attendance/models.py:380 templates/attendance/add_daily_leave.html:23
+msgid "Daily Leaves"
+msgstr "ورځنۍ رخصتۍ"
+
+#: attendance/views.py:72 attendance/views.py:163
+msgid "Device ID is required."
+msgstr "د وسیلې آی ډي اړین دی."
+
+#: attendance/views.py:74
+msgid "A device with that ID already exists."
+msgstr "یوه وسیله د دې آی ډي سره له مخکې شته ده."
+
+#: attendance/views.py:77 attendance/views.py:168
+msgid "Device name is required."
+msgstr "د وسیلې نوم اړین دی."
+
+#: attendance/views.py:84 attendance/views.py:175
+msgid "Port must be a number between 1 and 65535."
+msgstr "پورټ باید د ۱ او ۶۵۵۳۵ ترمنځ یوه شمېره وي."
+
+#: attendance/views.py:89 attendance/views.py:180
+msgid "COM Key must be a number."
+msgstr "د اړیکو کیلي باید یوه شمېره وي."
+
+#: attendance/views.py:94 attendance/views.py:185
+msgid "Invalid device type selected."
+msgstr "د وسیلې غلط ډول ټاکل شوی."
+
+#: attendance/views.py:96 attendance/views.py:187
+msgid "Invalid status selected."
+msgstr "غلط حالت ټاکل شوی."
+
+#: attendance/views.py:114
+#, python-format
+msgid "Device “%(dev)s” added."
+msgstr "وسیله «%(dev)s» اضافه شوه."
+
+#: attendance/views.py:165
+msgid "Another device with that ID already exists."
+msgstr "بله وسیله د دې آی ډي سره له مخکې شته ده."
+
+#: attendance/views.py:205
+#, python-format
+msgid "Device “%(dev)s” updated."
+msgstr "وسیله «%(dev)s» تازه شوه."
+
+#: attendance/views.py:227 templates/attendance/devices.html:210
+msgid "Could not delete device."
+msgstr "وسیله حذف نشوه."
+
+#: attendance/views.py:229 attendance/views.py:628 attendance/views.py:1266
+#: attendance/views.py:1795 employee/views.py:721 employee/views.py:866
+msgid "Invalid request."
+msgstr "غلطه غوښتنه."
+
+#: attendance/views.py:347
+msgid "Device is disabled."
+msgstr "وسیله غیر فعال ده."
+
+#: attendance/views.py:352
+msgid "Device is offline."
+msgstr "وسیله آفلاین ده."
+
+#: attendance/views.py:357
+msgid "Users deleted successfully from device."
+msgstr "کارنونه په بریالیتوب سره له وسیلې څخه حذف شول."
+
+#: attendance/views.py:359
+msgid "Failed to delete data from device."
+msgstr "د وسیلې څخه د معلوماتو حذف کول ناکام شول."
+
+#: attendance/views.py:362 attendance/views.py:388
+msgid "Device not found."
+msgstr "وسیله ونه موندل شوه."
+
+#: attendance/views.py:391
+msgid "Device is currently disabled."
+msgstr "وسیله اوس مهال غیر فعال ده."
+
+#: attendance/views.py:395 attendance/views.py:573 attendance/views.py:652
+#, python-format
+msgid "Device \"%(name)s\" is offline."
+msgstr "وسیله «%(name)s» آفلاین ده."
+
+#: attendance/views.py:438
+msgid "No fingerprint data found to upload."
+msgstr "د اپلوډ لپاره هیڅ د ګوتې نښې معلومات ونه موندل شول."
+
+#: attendance/views.py:446
+#, python-format
+msgid "All fingerprint data successfully uploaded to %(name)s."
+msgstr "ټول د ګوتې نښې معلومات په بریالیتوب سره %(name)s ته اپلوډ شول."
+
+#: attendance/views.py:450 templates/attendance/view_device.html:392
+msgid "Upload failed. Please check device connection or data integrity."
+msgstr ""
+"اپلوډ ناکام شو. مهرباني وکړئ د وسیلې اتصال یا د معلوماتو بشپړتیا وګورئ."
+
+#: attendance/views.py:464 attendance/views.py:545 attendance/views.py:634
+#: attendance/views.py:697 employee/views.py:716
+msgid "Employee not found."
+msgstr "کارکوونکی ونه موندل شو."
+
+#: attendance/views.py:474
+msgid "No registration devices available."
+msgstr "د ثبت لپاره هیڅ وسیله شتون نلري."
+
+#: attendance/views.py:485
+msgid "No registration device is online."
+msgstr "د ثبت لپاره هیڅ وسیله آنلاین نده."
+
+#: attendance/views.py:506
+msgid "No fingerprint templates found for this employee."
+msgstr "د دې کارکوونکي لپاره د ګوتې نښې هیڅ قالب ونه موندل شو."
+
+#: attendance/views.py:508
+#, python-format
+msgid "%(count)d Fingerprint templates downloaded."
+msgstr "%(count)d د ګوتې نښې قالبونه ډاونلوډ شول."
+
+#: attendance/views.py:523
+msgid "Card data downloaded successfully."
+msgstr "د کارت معلومات په بریالیتوب سره ډاونلوډ شول."
+
+#: attendance/views.py:524
+msgid "No card data found on the device."
+msgstr "په وسیله کې د کارت هیڅ معلومات ونه موندل شول."
+
+#: attendance/views.py:528
+msgid "Face download is under development."
+msgstr "د مخ ډاونلوډ تر پراختیا لاندې دی."
+
+#: attendance/views.py:531
+msgid "Invalid biometric option."
+msgstr "د بایومتریک غلط انتخاب."
+
+#: attendance/views.py:555 attendance/views.py:709
+msgid "Invalid biometric type."
+msgstr "د بایومتریک غلط ډول."
+
+#: attendance/views.py:561
+msgid "No biometric records found for selected type."
+msgstr "د ټاکل شوي ډول لپاره هیڅ بایومتریک ریکارډونه ونه موندل شول."
+
+#: attendance/views.py:566
+msgid "No enabled devices available."
+msgstr "هیڅ فعاله وسیله شتون نلري."
+
+#: attendance/views.py:593
+msgid "Failed to upload fingerprint templates."
+msgstr "د ګوتې نښې قالبونو اپلوډ کول ناکام شول."
+
+#: attendance/views.py:594
+#, python-format
+msgid "%(count)d Fingerprint templates uploaded."
+msgstr "%(count)d د ګوتې نښې قالبونه اپلوډ شول."
+
+#: attendance/views.py:603
+msgid "Invalid card number format."
+msgstr "د کارت شمېره غلطه ده."
+
+#: attendance/views.py:611
+msgid "Failed to upload card data."
+msgstr "د کارت معلوماتو اپلوډ کول ناکام شول."
+
+#: attendance/views.py:612
+#, python-format
+msgid "Card uploaded to %(count)d devices."
+msgstr "کارت %(count)d وسیلو ته اپلوډ شو."
+
+#: attendance/views.py:615
+msgid "Face upload is under development."
+msgstr "د مخ اپلوډ تر پراختیا لاندې دی."
+
+#: attendance/views.py:617
+msgid "Unhandled biometric type."
+msgstr "دا بایومتریک ډول نه دی شامل شوی."
+
+#: attendance/views.py:645
+msgid "No active attendance devices found."
+msgstr "هیڅ فعاله حاضرۍ وسیله ونه موندل شوه."
+
+#: attendance/views.py:664
+msgid "Failed to delete fingerprint templates."
+msgstr "د ګوتې نښې قالبونو حذف کول ناکام شول."
+
+#: attendance/views.py:665
+#, python-format
+msgid "Fingerprint templates deleted from %(count)d devices."
+msgstr "د ګوتې نښې قالبونه له %(count)d وسیلو څخه حذف شول."
+
+#: attendance/views.py:676
+msgid "Failed to delete card data."
+msgstr "د کارت معلوماتو حذف کول ناکام شول."
+
+#: attendance/views.py:677
+#, python-format
+msgid "Card data removed from %(count)d devices."
+msgstr "د کارت معلومات له %(count)d وسیلو څخه حذف شول."
+
+#: attendance/views.py:681
+msgid "Face deletion is under development."
+msgstr "د مخ حذف کول تر پراختیا لاندې دی."
+
+#: attendance/views.py:683
+msgid "Unknown biometric type."
+msgstr "نامعلوم بایومتریک ډول."
+
+#: attendance/views.py:716
+msgid "No biometric records found for this employee."
+msgstr "د دې کارکوونکي لپاره هیڅ بایومتریک ریکارډونه ونه موندل شول."
+
+#: attendance/views.py:724
+#, python-format
+msgid "%(count)d Biometric records deleted successfully."
+msgstr "%(count)d بایومتریک ریکارډونه په بریالیتوب سره حذف شول."
+
+#: attendance/views.py:749 attendance/views.py:978 attendance/views.py:1427
+#: employee/views.py:34 employee/views.py:116 employee/views.py:733
+#: employee/views.py:878 users/views.py:69 users/views.py:350
+msgid "Invalid request method."
+msgstr "غلطه غوښتنې طریقه."
+
+#: attendance/views.py:848 attendance/views.py:1159
+msgid "End date must be on or after start date."
+msgstr "د پای نېټه باید د پیل نېټې سره برابره یا وروسته وي."
+
+#: attendance/views.py:885
+msgid "public holiday added"
+msgstr "عامه رخصتي اضافه شوه"
+
+#: attendance/views.py:887
+#, python-brace-format
+msgid ""
+"A public holiday has been scheduled from {start} to {end}. Reason: {reason}"
+msgstr "له {start} څخه تر {end} پورې عامه رخصتي ترتیب شوه. دلیل: {reason}"
+
+#: attendance/views.py:894
+#, python-format
+msgid "Public holiday added for %(count)d employees."
+msgstr "د %(count)d کارکوونکو لپاره عامه رخصتي اضافه شوه."
+
+#: attendance/views.py:915
+msgid "Invalid holiday ID"
+msgstr "د رخصتۍ غلط آی ډي."
+
+#: attendance/views.py:924
+msgid "Invalid Jalali date format"
+msgstr "د جلالي نېټې غلط فارمیټ."
+
+#: attendance/views.py:939
+msgid "No matching holiday found to delete."
+msgstr "د حذف لپاره هیڅ مناسبه رخصتي ونه موندل شوه."
+
+#: attendance/views.py:942 attendance/views.py:1403 employee/views.py:255
+#: employee/views.py:1138 users/views.py:78 users/views.py:192
+#: users/views.py:211 users/views.py:521
+msgid "Invalid request"
+msgstr "غلطه غوښتنه"
+
+#: attendance/views.py:1144
+msgid "Please select a valid employee."
+msgstr "مهرباني وکړئ یو معتبر کارکوونکی وټاکئ."
+
+#: attendance/views.py:1148
+msgid "Please select a valid leave type."
+msgstr "مهرباني وکړئ د رخصتۍ معتبر ډول وټاکئ."
+
+#: attendance/views.py:1161
+msgid "Please enter valid Jalali dates (YYYY/MM/DD)."
+msgstr "مهرباني وکړئ د جلالي معتبرې نېټې (YYYY/MM/DD) داخل کړئ."
+
+#: attendance/views.py:1187
+#, python-format
+msgid ""
+"You have already taken %(used)d of %(limit)d days for %(type)s this year."
+msgstr ""
+"تاسو دمخه د %(type)s لپاره په روان کال کې له %(limit)d ورځو څخه %(used)d "
+"ورځې اخیستي دي."
+
+#: attendance/views.py:1230
+msgid "requested employee leave"
+msgstr "د کارکوونکي رخصتۍ غوښتنه"
+
+#: attendance/views.py:1235
+#, python-brace-format
+msgid "{user} requested a leave from {start} to {end}. Reason: {reason}"
+msgstr "{user} له {start} څخه تر {end} پورې رخصتي غوښتنه کړې. دلیل: {reason}"
+
+#: attendance/views.py:1240 attendance/views.py:1774
+msgid "(no reason provided)"
+msgstr "(هیڅ دلیل نه دی ورکړل شوی)"
+
+#: attendance/views.py:1246
+msgid "Leave requested successfully."
+msgstr "د رخصتۍ غوښتنه په بریالیتوب سره وشوه."
+
+#: attendance/views.py:1275
+msgid "Cannot delete an approved leave."
+msgstr "تایید شوې رخصتي حذف کېدلی نشي."
+
+#: attendance/views.py:1284
+msgid "You may only delete your own leave requests."
+msgstr "تاسو یوازې خپلې د رخصتۍ غوښتنې حذف کولی شئ."
+
+#: attendance/views.py:1376
+msgid "leave request approved"
+msgstr "د رخصتۍ غوښتنه تایید شوه"
+
+#: attendance/views.py:1378
+#, python-brace-format
+msgid "Your leave from {start} to {end} has been approved."
+msgstr "ستاسو له {start} څخه تر {end} پورې رخصتي تایید شوه."
+
+#: attendance/views.py:1380
+msgid "leave request rejected"
+msgstr "د رخصتۍ غوښتنه رد شوه"
+
+#: attendance/views.py:1382
+#, python-brace-format
+msgid "Your leave from {start} to {end} has been rejected."
+msgstr "ستاسو له {start} څخه تر {end} پورې رخصتي رد شوه."
+
+#: attendance/views.py:1402
+msgid "Leave not found"
+msgstr "رخصتي ونه موندل شوه"
+
+#: attendance/views.py:1681
+msgid "daily leave request approved"
+msgstr "د ورځنۍ رخصتۍ غوښتنه تایید شوه"
+
+#: attendance/views.py:1683
+#, python-brace-format
+msgid "Your daily leave on {date} has been approved."
+msgstr "ستاسو په {date} ورځنۍ رخصتي تایید شوه."
+
+#: attendance/views.py:1685
+msgid "daily leave request rejected"
+msgstr "د ورځنۍ رخصتۍ غوښتنه رد شوه"
+
+#: attendance/views.py:1687
+#, python-brace-format
+msgid "Your daily leave on {date} has been rejected."
+msgstr "ستاسو په {date} ورځنۍ رخصتي رد شوه."
+
+#: attendance/views.py:1727
+msgid "Select a valid employee."
+msgstr "یو معتبر کارکوونکی وټاکئ."
+
+#: attendance/views.py:1734
+msgid "Enter a valid date (YYYY/MM/DD)."
+msgstr "یو معتبره نېټه داخل کړئ (YYYY/MM/DD)."
+
+#: attendance/views.py:1737
+msgid "Select a valid leave type."
+msgstr "د رخصتۍ معتبر ډول وټاکئ."
+
+#: attendance/views.py:1765
+msgid "requested daily leave"
+msgstr "د ورځنۍ رخصتۍ غوښتنه"
+
+#: attendance/views.py:1770
+#, python-brace-format
+msgid "{user} requested a daily leave on {date}. Reason: {reason}"
+msgstr "{user} په {date} ورځنۍ رخصتي غوښتنه کړې. دلیل: {reason}"
+
+#: attendance/views.py:1779
+msgid "Daily leave requested."
+msgstr "ورځنۍ رخصتي غوښتنه شوه."
+
+#: attendance/views.py:1801
+msgid "Only pending requests can be deleted."
+msgstr "یوازې په انتظار غوښتنې حذف کېدلی شي."
+
+#: attendance/views.py:1806
+msgid "Not authorized to delete this."
+msgstr "د دې حذف کولو لپاره اجازه نلرئ."
+
+#: attendance/views.py:1906
+#, python-format
+msgid "Removed %(count)d attendance record%(plural)s."
+msgstr "%(count)d د حاضرۍ ریکارډ لیرې شو%(plural)s."
+
+#: attendance/views.py:1908
+msgid "s"
+msgstr "ونه"
+
+#: attendance/views.py:1912
+msgid "No matching attendance records were found to remove."
+msgstr "په دې نیټه هیڅ اوسنی معلومات ونه موندل شول."
+
+#: attendance/views.py:2052
+#, python-format
+msgid "Created %(count)d attendance log%(plural)s."
+msgstr "%(count)d د حاضری ریکارد جوړ شو%(plural)s."
+
+#: attendance/views.py:2060
+msgid "No new attendance logs were created (duplicates skipped)."
+msgstr ""
+"اوسني معلومات لا دمخه په دې نیټه شتون لري (نقلونه له پامه غورځول کیږي)."
+
+#: attendance/views.py:2119
+msgid "Invalid date format, use YYYY/MM/DD"
+msgstr "د نېټې غلط فارمیټ، د YYYY/MM/DD نه کار واخلئ"
+
+#: attendance/views.py:2253
+msgid "Daily Attendance Report"
+msgstr "د ورځنۍ حاضرۍ راپور"
+
+#: attendance/views.py:2363 templates/includes/sidebar.html:248
+#: templates/reports/monthly_attendance_form.html:4
+#: templates/reports/monthly_attendance_form.html:19
+#: templates/reports/monthly_attendance_form.html:30
+msgid "Monthly Attendance"
+msgstr "میاشتنۍ حاضرۍ"
+
+#: attendance/views.py:2469 templates/includes/sidebar.html:259
+#: templates/reports/attendance_report_form.html:4
+#: templates/reports/attendance_report_form.html:19
+#: templates/reports/attendance_report_form.html:32
+msgid "Attendance Report"
+msgstr "د حاضرۍ راپور"
+
+#: attendance/views.py:2495 attendance/views.py:2500
+msgid "Any"
+msgstr "ټول"
+
+#: attendance/views.py:2496 templates/employees/add_employee.html:131
+#: templates/employees/edit_employee.html:112
+#: templates/reports/employee_report_form.html:82
+#: templates/users/add_user.html:107 templates/users/edit_user.html:102
+#: users/models.py:37
+msgid "Male"
+msgstr "نارینه"
+
+#: attendance/views.py:2497 templates/employees/add_employee.html:132
+#: templates/employees/edit_employee.html:113
+#: templates/reports/employee_report_form.html:83
+#: templates/users/add_user.html:108 templates/users/edit_user.html:103
+#: users/models.py:38
+msgid "Female"
+msgstr "ښځینه"
+
+#: attendance/views.py:2501 employee/models.py:15 employee/models.py:65
+#: employee/models.py:207 templates/employees/employee_profile.html:93
+#: templates/employees/employee_profile.html:477
+#: templates/employees/employee_profile.html:505
+msgid "Active"
+msgstr "فعال"
+
+#: attendance/views.py:2502 employee/models.py:191
+#: templates/employees/employee_profile.html:92
+msgid "Archived"
+msgstr "آرشیف شوی"
+
+#: attendance/views.py:2534
+msgid "No employees found matching those filters."
+msgstr "د دې فلټرونو سره سم هیڅ کارکوونکی ونه موندل شو."
+
+#: attendance/views.py:2550 templates/includes/sidebar.html:270
+#: templates/reports/employee_report_form.html:4
+#: templates/reports/employee_report_form.html:19
+#: templates/reports/employee_report_form.html:30
+msgid "Employee Report"
+msgstr "د کارکوونکي راپور"
+
+#: attendance/views.py:2601
+msgid "No employees match those filters."
+msgstr "د دې فلټرونو سره سم هیڅ کارکوونکی مطابقت نلري."
+
+#: attendance/views.py:2682
+msgid "No employees found with ≥20 consecutive absences in the past year."
+msgstr ""
+"د تېر کال په جریان کې د ≥20 پرله پسې غیبتونو سره هیڅ کارکوونکی ونه موندل شو."
+
+#: attendance/views.py:2697 templates/reports/permanent_absent_form.html:4
+#: templates/reports/permanent_absent_form.html:19
+#: templates/reports/permanent_absent_form.html:30
+msgid "Permanent Absent Report"
+msgstr "د دایمي غیبت راپور"
+
+#: attendance/views.py:2698 templates/reports/attendance_report_form.html:85
+#: templates/reports/monthly_attendance_form.html:65
+#: templates/reports/permanent_absent_form.html:54
+msgid "All Departments"
+msgstr "ټولې څانګې"
+
+#: attendance/views.py:2699
+msgid "All Types"
+msgstr "ټول ډولونه"
+
+#: attendance/views.py:2748
+msgid "Invalid date format"
+msgstr "د نېټې غلط فارمیټ."
+
+#: attendance/views.py:2758 employee/views.py:250
+msgid "Employee not found"
+msgstr "کارکوونکی ونه موندل شو"
+
+#: config/constants.py:37
+msgid "Hamal"
+msgstr "حمل"
+
+#: config/constants.py:38
+msgid "Sawr"
+msgstr "ثور"
+
+#: config/constants.py:39
+msgid "Jawza"
+msgstr "جوزا"
+
+#: config/constants.py:40
+msgid "Saratan"
+msgstr "سرطان"
+
+#: config/constants.py:41
+msgid "Asad"
+msgstr "اسد"
+
+#: config/constants.py:42
+msgid "Sonbola"
+msgstr "سنبله"
+
+#: config/constants.py:43
+msgid "Mizan"
+msgstr "میزان"
+
+#: config/constants.py:44
+msgid "Aqrab"
+msgstr "عقرب"
+
+#: config/constants.py:45
+msgid "Qaws"
+msgstr "قوس"
+
+#: config/constants.py:46
+msgid "Jadi"
+msgstr "جدی"
+
+#: config/constants.py:47
+msgid "Dalwa"
+msgstr "دلو"
+
+#: config/constants.py:48
+msgid "Hoot"
+msgstr "حوت"
+
+#: core/models.py:14
+msgid "View the admin dashboard"
+msgstr "د مدیر عمومی داشبورد لیدل"
+
+#: core/models.py:15
+msgid "View the employee dashboard"
+msgstr "د کارکوونکي داشبورد لیدل"
+
+#: core/models.py:16
+msgid "View the head of department dashboard"
+msgstr "د څانګې د مشر داشبورد لیدل"
+
+#: core/models.py:19
+msgid "View the employee list"
+msgstr "د کارکوونکو لیست لیدل"
+
+#: core/models.py:20
+msgid "Add employee"
+msgstr "کارکوونکی اضافه کول"
+
+#: core/models.py:21
+msgid "Change employee"
+msgstr "کارکوونکی بدلول"
+
+#: core/models.py:22
+msgid "Delete employee"
+msgstr "کارکوونکی حذف کول"
+
+#: core/models.py:25
+msgid "View employee profile"
+msgstr "د کارکوونکي پروفایل لیدل"
+
+#: core/models.py:27
+msgid "View employee documents"
+msgstr "د کارکوونکي اسناد لیدل"
+
+#: core/models.py:28
+msgid "Add employee documents"
+msgstr "د کارکوونکي اسناد اضافه کول"
+
+#: core/models.py:29
+msgid "Delete employee documents"
+msgstr "د کارکوونکي اسناد حذف کول"
+
+#: core/models.py:31
+msgid "Change employee password"
+msgstr "د کارکوونکي پټنوم بدلول"
+
+#: core/models.py:32
+msgid "View employee biometric data"
+msgstr "د کارکوونکي بایومتریک معلومات لیدل"
+
+#: core/models.py:33
+msgid "Change employee biometric data"
+msgstr "د کارکوونکي بایومتریک معلومات بدلول"
+
+#: core/models.py:34
+msgid "View employee settings"
+msgstr "د کارکوونکي تنظیمات لیدل"
+
+#: core/models.py:37
+msgid "View the archive employee list"
+msgstr "د آرشیف شوو کارکوونکو لیست لیدل"
+
+#: core/models.py:38
+msgid "Delete the archive employee"
+msgstr "آرشیف شوی کارکوونکی حذف کول"
+
+#: core/models.py:41
+msgid "View the department list"
+msgstr "د څانګو لیست لیدل"
+
+#: core/models.py:42
+msgid "Add the department"
+msgstr "څانګه اضافه کول"
+
+#: core/models.py:43
+msgid "Change the department"
+msgstr "څانګه بدلول"
+
+#: core/models.py:44
+msgid "Delete the department"
+msgstr "څانګه حذف کول"
+
+#: core/models.py:47
+msgid "View the shift list"
+msgstr "د شیفتونو لیست لیدل"
+
+#: core/models.py:48
+msgid "Add the shift"
+msgstr "شیفت اضافه کول"
+
+#: core/models.py:49
+msgid "Change the shift"
+msgstr "شیفت بدلول"
+
+#: core/models.py:50
+msgid "Delete the shift"
+msgstr "شیفت حذف کول"
+
+#: core/models.py:53
+msgid "Check employee attendance"
+msgstr "د کارمندانو حاضري چک کول"
+
+#: core/models.py:54
+msgid "View the daily attendance"
+msgstr "د ورځنۍ حاضرۍ لیدل"
+
+#: core/models.py:55
+msgid ""
+"View department-based employee list by the head of department in daily "
+"attendance"
+msgstr ""
+"د ورځنۍ حاضرۍ په برخه کې د څانګې پر بنسټ د کارکوونکو لیست د څانګې د مشر لخوا "
+"لیدل"
+
+#: core/models.py:56
+msgid "View the monthly attendance"
+msgstr "د میاشتنۍ حاضرۍ لیدل"
+
+#: core/models.py:57
+msgid ""
+"View department-based employee list by the head of department in Monthly "
+"attendance"
+msgstr ""
+"د میاشتنۍ حاضرۍ په برخه کې د څانګې پر بنسټ د کارکوونکو لیست د څانګې د مشر "
+"لخوا لیدل"
+
+#: core/models.py:58
+msgid "View the attendance report"
+msgstr "د حاضرۍ راپور لیدل"
+
+#: core/models.py:59
+msgid "View the employee list report for print"
+msgstr "د چاپ لپاره د کارکوونکو لیست راپور لیدل"
+
+#: core/models.py:60
+msgid "View the permanent absent report"
+msgstr "د دایمي غیبت راپور لیدل"
+
+#: core/models.py:63
+msgid "View the public holiday list"
+msgstr "د عامه رخصتیو لیست لیدل"
+
+#: core/models.py:64
+msgid "Add the public holiday"
+msgstr "عامه رخصتي اضافه کول"
+
+#: core/models.py:65
+msgid "Delete the public holiday"
+msgstr "عامه رخصتي حذف کول"
+
+#: core/models.py:67
+msgid "View the employee leave list"
+msgstr "د کارکوونکو د رخصتیو لیست لیدل"
+
+#: core/models.py:68
+msgid "View the employee leave details"
+msgstr "د کارکوونکي د رخصتۍ جزئیات لیدل"
+
+#: core/models.py:69
+msgid "Confirm the employee leave"
+msgstr "د کارکوونکي رخصتي تایید کول"
+
+#: core/models.py:70
+msgid "Add the employee leave"
+msgstr "د کارکوونکي رخصتي اضافه کول"
+
+#: core/models.py:71
+msgid "Delete the employee leave"
+msgstr "د کارکوونکي رخصتي حذف کول"
+
+#: core/models.py:73
+msgid "View the daily leave list"
+msgstr "د ورځنۍ رخصتیو لیست لیدل"
+
+#: core/models.py:74
+msgid "View the daily leave details"
+msgstr "د ورځنۍ رخصتیو جزئیات لیدل"
+
+#: core/models.py:75
+msgid "Confirm the daily leave"
+msgstr "د ورځنۍ رخصتۍ تایید کول"
+
+#: core/models.py:76
+msgid "Add the daily leave"
+msgstr "د ورځنۍ رخصتۍ اضافه کول"
+
+#: core/models.py:77
+msgid "Delete the daily leave"
+msgstr "د ورځنۍ رخصتۍ حذف کول"
+
+#: core/models.py:79
+msgid "Employees to be marked as absent"
+msgstr "کارکوونکي غیرحاضر په نښه کول"
+
+#: core/models.py:80
+msgid "Employees to be marked as attend"
+msgstr "کارکوونکي حاضر په نښه کول"
+
+#: core/models.py:83
+msgid "View the device list"
+msgstr "د وسیلو لیست لیدل"
+
+#: core/models.py:84
+msgid "View device details"
+msgstr "د وسیلې جزئیات لیدل"
+
+#: core/models.py:85
+msgid "Add device"
+msgstr "وسیله اضافه کول"
+
+#: core/models.py:86
+msgid "Change device"
+msgstr "وسیله بدلول"
+
+#: core/models.py:87
+msgid "Delete device"
+msgstr "وسیله حذف کول"
+
+#: core/models.py:90
+msgid "View the users list"
+msgstr "د کاروونکو لیست لیدل"
+
+#: core/models.py:91
+msgid "Add user"
+msgstr "کاروونکی اضافه کول"
+
+#: core/models.py:92
+msgid "Change user"
+msgstr "کاروونکی بدلول"
+
+#: core/models.py:93
+msgid "Delete user"
+msgstr "کاروونکی حذف کول"
+
+#: core/models.py:95
+msgid "View the roles list"
+msgstr "د رولونو لیست لیدل"
+
+#: core/models.py:96
+msgid "Add role"
+msgstr "رول اضافه کول"
+
+#: core/models.py:97
+msgid "Change role"
+msgstr "رول بدلول"
+
+#: core/models.py:98
+msgid "Delete role"
+msgstr "رول حذف کول"
+
+#: core/models.py:100
+msgid "View the activity logs"
+msgstr "د کاروونکو فعالیتونه لیدل"
+
+#: core/models.py:101
+msgid "View the backup option"
+msgstr "د سیسټم بیک اپ اختیار لیدل"
+
+#: employee/models.py:9 templates/shifts/add_shift.html:59
+#: templates/shifts/edit_shift.html:59 templates/shifts/shifts.html:52
+msgid "Shift Name"
+msgstr "د شیفت نوم"
+
+#: employee/models.py:13 employee/models.py:73
+msgid "Created By"
+msgstr "له خوا جوړ شوی"
+
+#: employee/models.py:22 employee/models.py:42
+#: templates/employees/add_employee.html:170
+#: templates/employees/edit_employee.html:149
+#: templates/employees/emp_archive.html:55
+#: templates/employees/employee_profile.html:282
+#: templates/employees/employees.html:60
+#: templates/reports/employee_report.html:181
+#: templates/reports/permanent_absent_report.html:180
+msgid "Shift"
+msgstr "شیفت"
+
+#: employee/models.py:23 templates/includes/sidebar.html:148
+#: templates/reports/employee_report_form.html:66
+#: templates/shifts/add_shift.html:19 templates/shifts/edit_shift.html:19
+#: templates/shifts/shifts.html:3 templates/shifts/shifts.html:27
+#: templates/shifts/shifts.html:38 templates/shifts/view_shift.html:23
+msgid "Shifts"
+msgstr "کاري شیفتونه"
+
+#: employee/models.py:33
+msgid "Saturday"
+msgstr "شنبې"
+
+#: employee/models.py:34
+msgid "Sunday"
+msgstr "یکشنبې"
+
+#: employee/models.py:35
+msgid "Monday"
+msgstr "دوشنبه"
+
+#: employee/models.py:36
+msgid "Tuesday"
+msgstr "سې شنبې"
+
+#: employee/models.py:37
+msgid "Wednesday"
+msgstr "چهار شنبې"
+
+#: employee/models.py:38
+msgid "Thursday"
+msgstr "پنج شنبې"
+
+#: employee/models.py:39
+msgid "Friday"
+msgstr "جمعه"
+
+#: employee/models.py:45 templates/reports/attendance_report_form.html:55
+#: templates/reports/make_absent_form.html:58
+#: templates/reports/make_present_form.html:58
+#: templates/reports/monthly_attendance_form.html:77
+msgid "Year"
+msgstr "کال"
+
+#: employee/models.py:47
+msgid "4-digit calendar year this schedule applies to"
+msgstr "د تقویم څلور رقمه کال چې دا مهال ویش ورته تطبیق کیږي"
+
+#: employee/models.py:50 templates/reports/attendance_report_form.html:69
+#: templates/reports/make_absent_form.html:74
+#: templates/reports/make_present_form.html:74
+#: templates/reports/monthly_attendance_form.html:86
+msgid "Month"
+msgstr "میاشت"
+
+#: employee/models.py:52
+msgid "Month of year (1–12) that this schedule applies to"
+msgstr "د کال میاشت (۱–۱۲) چې دا مهال ویش ورته تطبیق کیږي"
+
+#: employee/models.py:55
+msgid "Day of Week"
+msgstr "د اونۍ ورځ"
+
+#: employee/models.py:59
+msgid "Clock-in Start"
+msgstr "د ننوتلو پیل"
+
+#: employee/models.py:60
+msgid "Clock-in End"
+msgstr "د ننوتلو پای"
+
+#: employee/models.py:61
+msgid "Clock-out Start"
+msgstr "د وتلو پیل"
+
+#: employee/models.py:62
+msgid "Clock-out End"
+msgstr "د وتلو پای"
+
+#: employee/models.py:67
+msgid "Uncheck to disable this schedule without deleting it"
+msgstr "د غیر فعال کولو لپاره نښه لرې کړئ پرته له دې چې دا مهال ویش حذف شي"
+
+#: employee/models.py:80
+msgid "Shift Schedule"
+msgstr "د شیفت مهال ویش"
+
+#: employee/models.py:81
+msgid "Shift Schedules"
+msgstr "د شیفتونو مهال ویشونه"
+
+#: employee/models.py:103 templates/departments/add_department.html:52
+#: templates/departments/departments.html:51
+#: templates/departments/edit_department.html:52
+msgid "Department Name"
+msgstr "د څانګې نوم"
+
+#: employee/models.py:108 employee/models.py:151
+#: templates/employees/add_employee.html:139
+#: templates/employees/edit_employee.html:124
+#: templates/employees/emp_archive.html:54
+#: templates/employees/employee_profile.html:274
+#: templates/employees/employees.html:59
+#: templates/reports/attendance_report_form.html:83
+#: templates/reports/employee_report.html:180
+#: templates/reports/employee_report_form.html:52
+#: templates/reports/monthly_attendance_form.html:63
+#: templates/reports/permanent_absent_form.html:52
+#: templates/reports/permanent_absent_report.html:179
+msgid "Department"
+msgstr "څانګه"
+
+#: employee/models.py:109 templates/departments/add_department.html:21
+#: templates/departments/departments.html:3
+#: templates/departments/departments.html:27
+#: templates/departments/departments.html:38
+#: templates/departments/edit_department.html:21
+#: templates/includes/sidebar.html:137
+msgid "Departments"
+msgstr "څانګې"
+
+#: employee/models.py:123
+msgid "Full-Time"
+msgstr "بشپړ وخت"
+
+#: employee/models.py:124
+msgid "Part-Time"
+msgstr "نیمه وخت"
+
+#: employee/models.py:125
+msgid "Contractor"
+msgstr "قراردادي"
+
+#: employee/models.py:126
+msgid "Intern"
+msgstr "کارآموز"
+
+#: employee/models.py:130
+msgid "User Account"
+msgstr "د کاروونکي حساب"
+
+#: employee/models.py:135 templates/attendance/daily_leaves.html:64
+#: templates/attendance/daily_leaves.html:102
+#: templates/attendance/employee_leaves.html:73
+#: templates/attendance/employee_leaves.html:113
+#: templates/employees/add_employee.html:85
+#: templates/employees/edit_employee.html:72
+#: templates/employees/emp_archive.html:50
+#: templates/employees/employees.html:55
+#: templates/reports/check_attendance_form.html:119
+#: templates/reports/employee_report.html:175
+#: templates/reports/permanent_absent_report.html:175
+msgid "Employee ID"
+msgstr "د کارکوونکي آی ډي"
+
+#: employee/models.py:140
+msgid "Custom ID to print on badges/cards"
+msgstr "د نشانونو/کارتونو لپاره دودیز آی ډي"
+
+#: employee/models.py:142 templates/employees/add_employee.html:59
+#: templates/employees/edit_employee.html:52
+#: templates/employees/emp_archive.html:52
+#: templates/employees/employees.html:57
+#: templates/reports/employee_report.html:177
+#: templates/reports/permanent_absent_report.html:177
+msgid "Father’s Name"
+msgstr "د پلار نوم"
+
+#: employee/models.py:143 templates/employees/add_employee.html:63
+#: templates/employees/edit_employee.html:56
+#: templates/reports/employee_report.html:178
+msgid "Grandfather’s Name"
+msgstr "د نیکه نوم"
+
+#: employee/models.py:144 templates/employees/add_employee.html:70
+#: templates/employees/edit_employee.html:62
+#: templates/reports/employee_report.html:179
+#: templates/reports/permanent_absent_report.html:178
+msgid "Position/Title"
+msgstr "د دندې عنوان"
+
+#: employee/models.py:146 templates/employees/add_employee.html:76
+#: templates/employees/edit_employee.html:65
+msgid "Device Administrator"
+msgstr "د وسیلې مدیر"
+
+#: employee/models.py:148
+msgid "If true, this user is the admin of biometric devices"
+msgstr "که ریښتیا وي، دا کاروونکی د بایومتریک وسیلو مدیر دی"
+
+#: employee/models.py:159
+msgid "If true, this user is the head of their department"
+msgstr "که ریښتیا وي، دا کاروونکی د خپلې څانګې مشر دی"
+
+#: employee/models.py:161
+msgid "Bast Code"
+msgstr "د بست کوډ"
+
+#: employee/models.py:162
+msgid "Qua Dam Code"
+msgstr "د قدم کوډ"
+
+#: employee/models.py:163 templates/employees/edit_employee.html:182
+#: templates/employees/employee_profile.html:318
+msgid "Legacy Code"
+msgstr "د بست کوډ"
+
+#: employee/models.py:164 templates/employees/add_employee.html:214
+#: templates/employees/edit_employee.html:192
+#: templates/employees/employee_profile.html:322
+msgid "Contract Date"
+msgstr "د قرارداد نېټه"
+
+#: employee/models.py:165 templates/employees/add_employee.html:218
+#: templates/employees/edit_employee.html:196
+msgid "Education Degree"
+msgstr "د زده کړو سند"
+
+#: employee/models.py:166 templates/employees/add_employee.html:222
+#: templates/employees/edit_employee.html:200
+#: templates/employees/employee_profile.html:229
+msgid "National ID"
+msgstr "د تذکرې نمبر"
+
+#: employee/models.py:168
+msgid "Assigned Shift"
+msgstr "ټاکل شوی شیفت"
+
+#: employee/models.py:172 templates/employees/add_employee.html:180
+#: templates/employees/edit_employee.html:159
+#: templates/employees/employee_profile.html:286
+#: templates/reports/attendance_report_form.html:97
+#: templates/reports/employee_report_form.html:89
+#: templates/reports/monthly_attendance_form.html:100
+#: templates/reports/permanent_absent_form.html:66
+msgid "Work Type"
+msgstr "د کار ډول"
+
+#: employee/models.py:178 templates/employees/add_employee.html:208
+#: templates/employees/edit_employee.html:186
+#: templates/employees/employee_profile.html:298
+msgid "Salary"
+msgstr "معاش"
+
+#: employee/models.py:183
+msgid "Monthly salary or contract amount"
+msgstr "میاشتنۍ معاش یا د قرارداد مقدار"
+
+#: employee/models.py:186 templates/employees/add_employee.html:190
+#: templates/employees/edit_employee.html:168
+#: templates/employees/employee_profile.html:294
+msgid "Duty Days"
+msgstr "د دندې ورځې"
+
+#: employee/models.py:188
+msgid "Working days per month"
+msgstr "د میاشتې کاري ورځې"
+
+#: employee/models.py:193
+msgid "Mark if no longer active"
+msgstr "نښه کړئ که نور فعال نه وي"
+
+#: employee/models.py:197
+msgid "Archive Date"
+msgstr "د آرشیف نېټه"
+
+#: employee/models.py:199
+msgid "When this employee was archived"
+msgstr "کله چې دا کارکوونکی آرشیف شو"
+
+#: employee/models.py:202 templates/employees/employee_profile.html:252
+msgid "Archive Reason"
+msgstr "د آرشیف دلیل"
+
+#: employee/models.py:204
+msgid "Reason for archiving this employee"
+msgstr "د دې کارکوونکي د آرشیف دلیل"
+
+#: employee/models.py:209
+msgid "Uncheck to disable this employee without deleting them"
+msgstr "د غیر فعال کولو لپاره نښه لرې کړئ پرته له دې چې دا کارکوونکی حذف شي"
+
+#: employee/models.py:213 templates/employees/add_employee.html:242
+#: templates/employees/edit_employee.html:214
+msgid "Additional Info"
+msgstr "اضافي معلومات"
+
+#: employee/models.py:215
+msgid "Free-form notes"
+msgstr "آزاد یادداشتونه"
+
+#: employee/models.py:219 templates/employees/employee_profile.html:238
+msgid "Address"
+msgstr "پته"
+
+#: employee/models.py:221
+msgid "Employee’s full mailing address"
+msgstr "د کارکوونکي بشپړه پته"
+
+#: employee/models.py:229 templates/departments/departments.html:52
+#: templates/employees/add_employee.html:17
+#: templates/employees/edit_employee.html:17
+#: templates/employees/emp_archive.html:3
+#: templates/employees/employee_profile.html:21
+#: templates/employees/employees.html:3 templates/employees/employees.html:31
+#: templates/employees/employees.html:42 templates/includes/sidebar.html:106
+#: templates/includes/sidebar.html:116
+#: templates/reports/employee_report_form.html:39
+#: templates/reports/permanent_absent_form.html:39
+#: templates/shifts/shifts.html:53
+msgid "Employees"
+msgstr "کارکوونکي"
+
+#: employee/models.py:244
+msgid "Document"
+msgstr "سند"
+
+#: employee/models.py:251
+msgid "Optional note about this file"
+msgstr "د دې فایل په اړه اختیاري یادداشت"
+
+#: employee/models.py:253 templates/employees/employee_profile.html:386
+msgid "Uploaded At"
+msgstr "د اپلوډ نېټه"
+
+#: employee/models.py:256
+msgid "Employee Document"
+msgstr "د کارکوونکي سند"
+
+#: employee/models.py:257 templates/employees/employee_profile.html:53
+#: templates/employees/employee_profile.html:353
+msgid "Employee Documents"
+msgstr "د کارکوونکي اسناد"
+
+#: employee/views.py:334
+msgid "Current password is incorrect."
+msgstr "اوسنی پټنوم ناسم دی."
+
+#: employee/views.py:340
+msgid "New passwords don’t match."
+msgstr "نوي پټنومونه سره سمون نه لري."
+
+#: employee/views.py:342
+msgid "New password must be at least 8 characters."
+msgstr "نوی پټنوم باید لږ تر لږه ۸ توري ولري."
+
+#: employee/views.py:459 employee/views.py:619
+#: templates/employees/add_employee.html:118
+#: templates/employees/edit_employee.html:99
+#: templates/employees/employee_profile.html:642
+#: templates/users/add_user.html:89 templates/users/edit_user.html:84
+#: users/views.py:232 users/views.py:312
+msgid "Passwords do not match."
+msgstr "پټنومونه سره سمون نه لري."
+
+#: employee/views.py:461 employee/views.py:622 users/views.py:76
+#: users/views.py:237
+msgid "Username already exists."
+msgstr "د کاروونکي نوم له مخکې شته دی."
+
+#: employee/views.py:463 employee/views.py:624 users/views.py:242
+#: users/views.py:304
+msgid "Email already exists."
+msgstr "بریښنالیک له مخکې شته دی."
+
+#: employee/views.py:465 employee/views.py:626
+msgid "Employee ID already exists."
+msgstr "د کارکوونکي آی ډي له مخکې شته دی."
+
+#: employee/views.py:472 employee/views.py:633
+#, python-format
+msgid "Department “%(dept)s” already has a head."
+msgstr "څانګه «%(dept)s» له مخکې یو مشر لري."
+
+#: employee/views.py:522
+#, python-format
+msgid "Employee “%(name)s” added."
+msgstr "کارکوونکی «%(name)s» اضافه شو."
+
+#: employee/views.py:684
+#, python-format
+msgid "Employee “%(name)s” updated."
+msgstr "کارکوونکی «%(name)s» تازه شو."
+
+#: employee/views.py:795 employee/views.py:819
+msgid "Department name is required."
+msgstr "د څانګې نوم اړین دی."
+
+#: employee/views.py:797 employee/views.py:821
+msgid "A department with that name already exists."
+msgstr "د دې نوم سره یوه څانګه له مخکې شته ده."
+
+#: employee/views.py:800
+#, python-format
+msgid "Department “%(name)s” created."
+msgstr "څانګه «%(name)s» جوړه شوه."
+
+#: employee/views.py:827
+#, python-format
+msgid "Department “%(name)s” has been updated."
+msgstr "څانګه «%(name)s» تازه شوه."
+
+#: employee/views.py:852
+msgid "Cannot delete department: it’s still assigned to one or more employees."
+msgstr "څانګه حذف نه شي کیدی: دا لاهم یو یا ډیرو کارکوونکو ته ټاکل شوې ده."
+
+#: employee/views.py:861
+msgid "Department not found."
+msgstr "څانګه ونه موندل شوه."
+
+#: employee/views.py:961 employee/views.py:1025
+msgid "Invalid year"
+msgstr "ناسم کال"
+
+#: employee/views.py:969
+msgid "Year already exists"
+msgstr "کال له مخکې شته دی."
+
+#: employee/views.py:972
+msgid "No existing template year to copy from"
+msgstr "د کاپي کولو لپاره هیڅ پخوانی قالب کال شتون نلري."
+
+#: employee/views.py:1028
+msgid "Year not found"
+msgstr "کال ونه موندل شو."
+
+#: employee/views.py:1030
+msgid "Cannot delete the only year"
+msgstr "یوازینی کال حذف نه شي کیدی."
+
+#: employee/views.py:1048 employee/views.py:1099
+msgid "Shift name is required."
+msgstr "د شیفت نوم اړین دی."
+
+#: employee/views.py:1050 employee/views.py:1101
+msgid "A shift with that name already exists."
+msgstr "د دې نوم سره یو شیفت له مخکې شته دی."
+
+#: employee/views.py:1081
+#, python-format
+msgid "Shift “%(name)s” created."
+msgstr "شیفت «%(name)s» جوړ شو."
+
+#: employee/views.py:1105
+#, python-format
+msgid "Shift “%(name)s” has been updated."
+msgstr "شیفت «%(name)s» تازه شو."
+
+#: employee/views.py:1128
+msgid "Cannot delete shift: one or more employees are assigned to it."
+msgstr "شیفت حذف نه شي کیدی: یو یا ډیر کارکوونکي ورته ټاکل شوي دي."
+
+#: employee/views.py:1163
+#, python-format
+msgid "Shift schedule for %(year)s updated."
+msgstr "د %(year)s کال لپاره د شیفت مهال ویش تازه شو."
+
+#: templates/403.html:8 templates/403.html:36
+msgid "Access Denied"
+msgstr "لاس رسی منع شوې"
+
+#: templates/403.html:8 templates/404.html:8 templates/500.html:8
+#: templates/base.html:8 templates/reports/print_base.html:5
+#: templates/users/login.html:7
+msgid "OnTime"
+msgstr "د آنټایم سیسټم"
+
+#: templates/403.html:38
+msgid "You do not have permission to access this page."
+msgstr "تاسو د دې پاڼې د لیدلو اجازه نه لرئ."
+
+#: templates/403.html:40 templates/404.html:40 templates/500.html:40
+msgid "Go to Home"
+msgstr "کور ته لاړ شئ"
+
+#: templates/404.html:8 templates/404.html:36
+msgid "Page Not Found"
+msgstr "پاڼه و نه موندل شوه"
+
+#: templates/404.html:38
+msgid "Sorry, this page does not exist."
+msgstr "بخښنه غواړو، دا پاڼه نه شته."
+
+#: templates/500.html:8 templates/500.html:36
+msgid "Server Error"
+msgstr "د سرور تېروتنه"
+
+#: templates/500.html:38
+msgid "Sorry, something went wrong on our side."
+msgstr "بخښنه غواړو، زموږ له خوا یوه ستونزه پېښه شوې ده."
+
+#: templates/attendance/add_daily_leave.html:4
+#: templates/attendance/add_daily_leave.html:27
+#: templates/attendance/add_daily_leave.html:40
+msgid "Add Daily Leave"
+msgstr "ورځنۍ رخصتي اضافه کول"
+
+#: templates/attendance/add_daily_leave.html:18
+#: templates/attendance/add_device.html:15
+#: templates/attendance/add_employee_leave.html:16
+#: templates/attendance/add_public_holiday.html:15
+#: templates/attendance/daily_leaves.html:20
+#: templates/attendance/devices.html:62
+#: templates/attendance/edit_device.html:13
+#: templates/attendance/employee_leaves.html:28
+#: templates/attendance/public_holidays.html:22
+#: templates/attendance/view_device.html:33
+#: templates/departments/add_department.html:18
+#: templates/departments/departments.html:24
+#: templates/departments/edit_department.html:18
+#: templates/employees/add_employee.html:14
+#: templates/employees/edit_employee.html:16
+#: templates/employees/emp_archive.html:28
+#: templates/employees/employee_profile.html:18
+#: templates/employees/employees.html:28
+#: templates/reports/attendance_report_form.html:16
+#: templates/reports/check_attendance_form.html:50
+#: templates/reports/daily_attendance_form.html:16
+#: templates/reports/employee_report_form.html:16
+#: templates/reports/make_absent_form.html:16
+#: templates/reports/make_present_form.html:16
+#: templates/reports/monthly_attendance_form.html:16
+#: templates/reports/permanent_absent_form.html:16
+#: templates/shifts/add_shift.html:16 templates/shifts/edit_shift.html:16
+#: templates/shifts/shifts.html:24 templates/shifts/view_shift.html:20
+#: templates/users/add_role.html:14 templates/users/add_user.html:13
+#: templates/users/edit_role.html:14 templates/users/edit_user.html:13
+#: templates/users/logs.html:39 templates/users/roles.html:18
+#: templates/users/users.html:22
+msgid "Home"
+msgstr "لومړۍ پاڼه"
+
+#: templates/attendance/add_daily_leave.html:42
+#: templates/attendance/add_device.html:36
+#: templates/attendance/add_employee_leave.html:32
+#: templates/attendance/add_public_holiday.html:37
+#: templates/attendance/edit_device.html:28
+#: templates/departments/add_department.html:39
+#: templates/departments/edit_department.html:39
+#: templates/employees/add_employee.html:35
+#: templates/employees/edit_employee.html:32
+#: templates/employees/employee_profile.html:691
+#: templates/reports/make_absent_form.html:117
+#: templates/reports/make_present_form.html:117
+#: templates/shifts/add_shift.html:43 templates/shifts/edit_shift.html:43
+#: templates/users/add_role.html:33 templates/users/add_user.html:31
+#: templates/users/edit_role.html:36 templates/users/edit_user.html:31
+msgid "Save"
+msgstr "ذخیره کول"
+
+#: templates/attendance/add_daily_leave.html:43
+#: templates/attendance/add_device.html:39
+#: templates/attendance/add_employee_leave.html:33
+#: templates/attendance/add_public_holiday.html:40
+#: templates/attendance/daily_leaves.html:361
+#: templates/attendance/devices.html:189
+#: templates/attendance/edit_device.html:29
+#: templates/attendance/employee_leaves.html:313
+#: templates/attendance/public_holidays.html:189
+#: templates/attendance/view_device.html:294
+#: templates/departments/add_department.html:42
+#: templates/departments/departments.html:208
+#: templates/departments/edit_department.html:42
+#: templates/employees/add_employee.html:38
+#: templates/employees/edit_employee.html:33
+#: templates/employees/emp_archive.html:92
+#: templates/employees/employee_profile.html:663
+#: templates/employees/employee_profile.html:877
+#: templates/employees/employee_profile.html:1133
+#: templates/employees/employee_profile.html:1210
+#: templates/employees/employees.html:134 templates/shifts/add_shift.html:46
+#: templates/shifts/edit_shift.html:46 templates/shifts/shifts.html:232
+#: templates/shifts/view_shift.html:182 templates/users/add_role.html:34
+#: templates/users/add_user.html:34 templates/users/edit_role.html:39
+#: templates/users/edit_user.html:32 templates/users/roles.html:153
+#: templates/users/users.html:119
+msgid "Cancel"
+msgstr "لغوه کول"
+
+#: templates/attendance/add_daily_leave.html:59
+#: templates/attendance/add_daily_leave.html:116
+#: templates/attendance/add_employee_leave.html:50
+#: templates/attendance/add_employee_leave.html:161
+#: templates/reports/check_attendance_form.html:79
+#: templates/reports/check_attendance_form.html:146
+#: templates/reports/daily_attendance_form.html:45
+#: templates/reports/daily_attendance_form.html:106
+#: templates/reports/employee_report_form.html:150
+#: templates/reports/make_absent_form.html:147
+#: templates/reports/make_present_form.html:147
+msgid "Select Employee"
+msgstr "کارکوونکی وټاکئ"
+
+#: templates/attendance/add_daily_leave.html:74
+#: templates/attendance/daily_leaves.html:66
+#: templates/attendance/daily_leaves.html:110
+#: templates/reports/check_attendance_form.html:95
+#: templates/reports/daily_attendance_form.html:60
+msgid "Date"
+msgstr "نېټه"
+
+#: templates/attendance/add_daily_leave.html:80
+#: templates/attendance/add_daily_leave.html:124
+#: templates/attendance/add_employee_leave.html:169
+msgid "Select Leave Type"
+msgstr "د رخصتۍ ډول وټاکئ"
+
+#: templates/attendance/add_device.html:3
+#: templates/attendance/add_device.html:21
+#: templates/attendance/add_device.html:33 templates/attendance/devices.html:88
+msgid "Add Device"
+msgstr "وسیله اضافه کول"
+
+#: templates/attendance/add_device.html:56
+#: templates/attendance/edit_device.html:51
+msgid "Name"
+msgstr "نوم"
+
+#: templates/attendance/add_device.html:64
+#: templates/attendance/edit_device.html:65
+msgid "Please enter a valid IPv4 address (e.g., 192.168.1.1)"
+msgstr "مهرباني وکړئ یو معتبر IPv4 پته داخل کړئ (لکه 192.168.1.1)"
+
+#: templates/attendance/add_device.html:79
+#: templates/attendance/edit_device.html:88
+#: templates/attendance/view_device.html:114
+msgid "Device Type"
+msgstr "د وسیلې ډول"
+
+#: templates/attendance/add_device.html:81
+#: templates/attendance/add_employee_leave.html:67
+#: templates/attendance/edit_device.html:90
+#: templates/reports/make_absent_form.html:105
+#: templates/reports/make_present_form.html:105
+msgid "Select Type"
+msgstr "ډول وټاکئ"
+
+#: templates/attendance/add_device.html:91
+#: templates/attendance/edit_device.html:99
+msgid "Select Status"
+msgstr "حالت وټاکئ"
+
+#: templates/attendance/add_employee_leave.html:5
+msgid "Add Employee Leave"
+msgstr "د کارکوونکي رخصتي اضافه کول"
+
+#: templates/attendance/add_employee_leave.html:17
+#: templates/attendance/employee_leaves.html:3
+#: templates/attendance/employee_leaves.html:31
+#: templates/attendance/employee_leaves.html:60
+#: templates/includes/sidebar.html:176
+msgid "Employee Leave"
+msgstr "د کارکوونکي رخصتي"
+
+#: templates/attendance/add_employee_leave.html:18
+#: templates/attendance/add_employee_leave.html:30
+#: templates/attendance/daily_leaves.html:54
+#: templates/attendance/employee_leaves.html:63
+msgid "Add Leave"
+msgstr "رخصتي اضافه کول"
+
+#: templates/attendance/add_employee_leave.html:89
+#: templates/attendance/add_public_holiday.html:62
+#: templates/attendance/employee_leaves.html:76
+#: templates/attendance/employee_leaves.html:125
+#: templates/attendance/public_holidays.html:70
+#: templates/reports/make_absent_form.html:90
+#: templates/reports/make_present_form.html:90
+#: templates/reports/permanent_absent_report.html:181
+msgid "Days"
+msgstr "ورځې"
+
+#: templates/attendance/add_public_holiday.html:3
+#: templates/attendance/add_public_holiday.html:34
+msgid "Add Public Holiday"
+msgstr "عامه رخصتي اضافه کول"
+
+#: templates/attendance/add_public_holiday.html:18
+#: templates/attendance/public_holidays.html:5
+#: templates/attendance/public_holidays.html:25
+#: templates/attendance/public_holidays.html:56
+#: templates/includes/sidebar.html:165
+msgid "Public Holidays"
+msgstr "عامه رخصتۍ"
+
+#: templates/attendance/add_public_holiday.html:21
+#: templates/attendance/public_holidays.html:59
+msgid "Add Holiday"
+msgstr "رخصتي اضافه کول"
+
+#: templates/attendance/daily_leaves.html:5
+#: templates/attendance/daily_leaves.html:23
+#: templates/attendance/daily_leaves.html:51
+msgid "Daily Leave Requests"
+msgstr "د ورځنۍ رخصتۍ غوښتنې"
+
+#: templates/attendance/daily_leaves.html:42
+#: templates/attendance/employee_leaves.html:50
+#: templates/attendance/public_holidays.html:44
+msgid "Show"
+msgstr "ښودل"
+
+#: templates/attendance/daily_leaves.html:65
+#: templates/attendance/daily_leaves.html:106
+#: templates/attendance/employee_leaves.html:74
+#: templates/attendance/employee_leaves.html:117
+#: templates/employees/emp_archive.html:51
+#: templates/employees/employee_profile.html:188
+#: templates/employees/employees.html:56
+#: templates/reports/employee_report.html:176
+#: templates/reports/permanent_absent_report.html:176
+#: templates/users/users.html:51
+msgid "Full Name"
+msgstr "بشپړ نوم"
+
+#: templates/attendance/daily_leaves.html:69
+#: templates/attendance/daily_leaves.html:122
+msgid "Dept Head"
+msgstr "د څانګې مشر"
+
+#: templates/attendance/daily_leaves.html:72
+#: templates/attendance/employee_leaves.html:82
+#: templates/attendance/public_holidays.html:73
+#: templates/departments/departments.html:55
+#: templates/employees/emp_archive.html:57
+#: templates/employees/employee_profile.html:387
+#: templates/employees/employee_profile.html:427
+#: templates/employees/employees.html:63 templates/shifts/shifts.html:56
+#: templates/users/logs.html:60 templates/users/roles.html:44
+#: templates/users/users.html:59
+msgid "Actions"
+msgstr "تنظیمات"
+
+#: templates/attendance/daily_leaves.html:88
+msgid "Request Details"
+msgstr "د غوښتنې جزئیات"
+
+#: templates/attendance/daily_leaves.html:97
+#: templates/attendance/employee_leaves.html:108
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/attendance/daily_leaves.html:98
+#: templates/attendance/employee_leaves.html:109
+msgid "Value"
+msgstr "معلومات"
+
+#: templates/attendance/daily_leaves.html:140
+#: templates/attendance/employee_leaves.html:166
+msgid "Note: After confirming or rejecting, it won't be changeable"
+msgstr "یادونه: د تایید یا ردولو وروسته، دا به بدلون ونه کړي"
+
+#: templates/attendance/daily_leaves.html:144
+#: templates/attendance/employee_leaves.html:170
+msgid "Approve"
+msgstr "تایید کول"
+
+#: templates/attendance/daily_leaves.html:147
+#: templates/attendance/employee_leaves.html:173
+msgid "Reject"
+msgstr "رد کول"
+
+#: templates/attendance/daily_leaves.html:197
+#: templates/attendance/daily_leaves.html:254
+#: templates/attendance/employee_leaves.html:222
+#: templates/attendance/employee_leaves.html:289
+#: templates/attendance/public_holidays.html:127
+#: templates/attendance/public_holidays.html:164
+#: templates/departments/departments.html:106
+#: templates/departments/departments.html:176
+#: templates/employees/emp_archive.html:158
+#: templates/employees/emp_archive.html:212
+#: templates/employees/employees.html:200
+#: templates/employees/employees.html:273 templates/shifts/shifts.html:147
+#: templates/shifts/shifts.html:213 templates/users/logs.html:150
+#: templates/users/logs.html:188 templates/users/roles.html:93
+#: templates/users/roles.html:133 templates/users/users.html:209
+#: templates/users/users.html:297
+msgid "No data available in table"
+msgstr "په جدول کې هیڅ معلومات شتون نلري"
+
+#: templates/attendance/daily_leaves.html:239
+#: templates/attendance/devices.html:117
+#: templates/attendance/employee_leaves.html:266
+msgid "View"
+msgstr "لیدل"
+
+#: templates/attendance/daily_leaves.html:242
+#: templates/attendance/devices.html:123
+#: templates/attendance/employee_leaves.html:275
+#: templates/attendance/employee_leaves.html:279
+#: templates/shifts/shifts.html:200
+msgid "Delete"
+msgstr "حذف کول"
+
+#: templates/attendance/daily_leaves.html:255
+#: templates/attendance/employee_leaves.html:290
+#: templates/attendance/public_holidays.html:165
+#: templates/departments/departments.html:177
+#: templates/employees/emp_archive.html:213
+#: templates/employees/employees.html:274 templates/shifts/shifts.html:214
+#: templates/users/logs.html:189 templates/users/roles.html:134
+#: templates/users/users.html:298
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "له _START_ څخه تر _END_ پورې د _TOTAL_ ننوتنو ښودل"
+
+#: templates/attendance/daily_leaves.html:256
+#: templates/attendance/employee_leaves.html:291
+#: templates/attendance/public_holidays.html:166
+#: templates/departments/departments.html:178
+#: templates/employees/emp_archive.html:214
+#: templates/employees/employees.html:275 templates/shifts/shifts.html:215
+#: templates/users/logs.html:190 templates/users/roles.html:135
+#: templates/users/users.html:299
+msgid "_MENU_ entries per page"
+msgstr "په هره پاڼه _MENU_ ننوتنې"
+
+#: templates/attendance/daily_leaves.html:257
+#: templates/attendance/employee_leaves.html:292
+#: templates/attendance/public_holidays.html:167
+#: templates/departments/departments.html:179
+#: templates/employees/emp_archive.html:215
+#: templates/employees/employees.html:276 templates/shifts/shifts.html:216
+#: templates/users/logs.html:191 templates/users/roles.html:136
+#: templates/users/users.html:300
+msgid "Search:"
+msgstr "لټون:"
+
+#: templates/attendance/daily_leaves.html:309
+#: templates/attendance/employee_leaves.html:427
+msgid "Could not update status."
+msgstr "حالت تازه نه شو کیدی."
+
+#: templates/attendance/daily_leaves.html:312
+#: templates/attendance/daily_leaves.html:342
+#: templates/attendance/view_device.html:403
+#: templates/attendance/view_device.html:433
+#: templates/attendance/view_device.html:445 templates/components/toast.html:8
+#: templates/departments/departments.html:227
+#: templates/employees/emp_archive.html:113
+#: templates/employees/emp_archive.html:117
+#: templates/employees/employee_profile.html:791
+#: templates/employees/employee_profile.html:815
+#: templates/employees/employee_profile.html:958
+#: templates/employees/employee_profile.html:968
+#: templates/employees/employee_profile.html:1031
+#: templates/employees/employee_profile.html:1041
+#: templates/employees/employee_profile.html:1098
+#: templates/employees/employee_profile.html:1108
+#: templates/employees/employee_profile.html:1175
+#: templates/employees/employee_profile.html:1185
+#: templates/employees/employee_profile.html:1254
+#: templates/employees/employee_profile.html:1264
+#: templates/employees/employees.html:112
+#: templates/employees/employees.html:155
+#: templates/employees/employees.html:159
+#: templates/reports/check_attendance_form.html:171
+#: templates/reports/check_attendance_form.html:184
+#: templates/reports/check_attendance_form.html:206
+#: templates/reports/check_attendance_form.html:247
+#: templates/shifts/shifts.html:253 templates/users/login.html:229
+#: templates/users/login.html:238 templates/users/roles.html:174
+#: templates/users/users.html:100 templates/users/users.html:151
+#: templates/users/users.html:160
+msgid "Error"
+msgstr "تېروتنه"
+
+#: templates/attendance/daily_leaves.html:330
+#: templates/attendance/employee_leaves.html:420
+msgid "Status updated"
+msgstr "حالت تازه شو"
+
+#: templates/attendance/daily_leaves.html:343
+msgid "An unexpected error occurred."
+msgstr "یو غیر متوقع تېروتنه رامنځته شوه."
+
+#: templates/attendance/daily_leaves.html:356
+#: templates/attendance/devices.html:184
+#: templates/attendance/employee_leaves.html:308
+#: templates/attendance/public_holidays.html:184
+#: templates/attendance/view_device.html:289
+#: templates/departments/departments.html:203
+#: templates/employees/emp_archive.html:87
+#: templates/employees/employee_profile.html:872
+#: templates/employees/employee_profile.html:1129
+#: templates/employees/employee_profile.html:1206
+#: templates/employees/employees.html:129 templates/shifts/shifts.html:227
+#: templates/users/roles.html:148 templates/users/users.html:114
+msgid "Are you sure?"
+msgstr "ایا تاسو ډاډه یاست؟"
+
+#: templates/attendance/daily_leaves.html:357
+msgid "This will permanently delete the request."
+msgstr "خبرداری! دا به غوښتنه په دایمي توګه حذف کړي."
+
+#: templates/attendance/daily_leaves.html:360
+#: templates/attendance/devices.html:188
+#: templates/attendance/employee_leaves.html:312
+#: templates/attendance/public_holidays.html:188
+#: templates/departments/departments.html:207
+#: templates/employees/emp_archive.html:91
+#: templates/employees/employee_profile.html:876
+#: templates/employees/employee_profile.html:1132
+#: templates/employees/employee_profile.html:1209
+#: templates/employees/employees.html:133 templates/shifts/shifts.html:231
+#: templates/users/roles.html:152 templates/users/users.html:118
+msgid "Yes, delete it!"
+msgstr "هو، حذف یې کړئ!"
+
+#: templates/attendance/daily_leaves.html:376
+#: templates/attendance/devices.html:205
+#: templates/attendance/employee_leaves.html:329
+#: templates/attendance/public_holidays.html:207
+#: templates/departments/departments.html:222
+#: templates/employees/emp_archive.html:108
+#: templates/employees/employee_profile.html:1247
+#: templates/employees/employees.html:150 templates/shifts/shifts.html:248
+#: templates/users/roles.html:169 templates/users/users.html:140
+msgid "Deleted"
+msgstr "حذف شو"
+
+#: templates/attendance/daily_leaves.html:376
+msgid "Request has been deleted."
+msgstr "غوښتنه حذف شوه."
+
+#: templates/attendance/devices.html:82 templates/attendance/devices.html:351
+#: templates/attendance/devices.html:364
+msgid "Sync Devices Time"
+msgstr "د وسیلو وخت همغږي کول"
+
+#: templates/attendance/devices.html:120 templates/shifts/shifts.html:192
+msgid "Edit"
+msgstr "سمون"
+
+#: templates/attendance/devices.html:185
+msgid "This will delete the device permanently."
+msgstr "خبرداری! دا به وسیله په دایمي توګه حذف کړي."
+
+#: templates/attendance/devices.html:206
+msgid "Device has been deleted."
+msgstr "وسیله حذف شوه."
+
+#: templates/attendance/devices.html:288
+msgid "Device Clock"
+msgstr "د وسیلې ساعت"
+
+#: templates/attendance/edit_device.html:3
+#: templates/attendance/edit_device.html:15
+#: templates/attendance/edit_device.html:26
+msgid "Edit Device"
+msgstr "د وسیلې سمون"
+
+#: templates/attendance/employee_leaves.html:77
+msgid "Start"
+msgstr "پیل"
+
+#: templates/attendance/employee_leaves.html:78
+msgid "End"
+msgstr "پای"
+
+#: templates/attendance/employee_leaves.html:79
+#: templates/attendance/employee_leaves.html:145
+msgid "Supervisor"
+msgstr "مشر"
+
+#: templates/attendance/employee_leaves.html:99
+msgid "Leave Details"
+msgstr "د رخصتۍ جزئیات"
+
+#: templates/attendance/employee_leaves.html:309
+msgid "This will delete the leave."
+msgstr "خبرداری! دا به رخصتي په دایمي توګه حذف کړي."
+
+#: templates/attendance/employee_leaves.html:330
+msgid "Leave has been deleted."
+msgstr "رخصتي حذف شوه."
+
+#: templates/attendance/employee_leaves.html:334
+#: templates/attendance/public_holidays.html:210
+#: templates/employees/employee_profile.html:898
+msgid "Could not delete."
+msgstr "حذف نه شو کیدی."
+
+#: templates/attendance/employee_leaves.html:361
+msgid "View File"
+msgstr "د ضمیمه شوي فایل لیدل"
+
+#: templates/attendance/public_holidays.html:185
+msgid "This will delete that public holiday for all employees."
+msgstr "خبرداری! دا به د ټولو کارکوونکو لپاره عامه رخصتي حذف کړي."
+
+#: templates/attendance/public_holidays.html:207
+msgid "Public holiday has been deleted."
+msgstr "عامه رخصتي حذف شوه."
+
+#: templates/attendance/view_device.html:3
+#: templates/attendance/view_device.html:39
+#: templates/attendance/view_device.html:56
+msgid "Device details"
+msgstr "د وسیلې جزئیات"
+
+#: templates/attendance/view_device.html:43
+#: templates/employees/employee_profile.html:28
+msgid "Back"
+msgstr "شاته"
+
+#: templates/attendance/view_device.html:62
+msgid "Delete All Data"
+msgstr "ټول معلومات حذف کول"
+
+#: templates/attendance/view_device.html:69
+msgid "Upload All Data"
+msgstr "ټول معلومات اپلوډ کول"
+
+#: templates/attendance/view_device.html:144
+#: templates/includes/sidebar.html:314 templates/users/add_user.html:14
+#: templates/users/edit_user.html:14 templates/users/users.html:3
+#: templates/users/users.html:23 templates/users/users.html:34
+#: users/models.py:51
+msgid "Users"
+msgstr "کاروونکي"
+
+#: templates/attendance/view_device.html:167
+msgid "Fingerprints"
+msgstr "د ګوتې نښې"
+
+#: templates/attendance/view_device.html:190
+msgid "Faces"
+msgstr "مخونه"
+
+#: templates/attendance/view_device.html:213
+msgid "Cards"
+msgstr "کارتونه"
+
+#: templates/attendance/view_device.html:290
+msgid "This will delete all users from the device!"
+msgstr "خبرداری! دا به د وسیلې څخه د ټولو کاروونکو معلومات حذف کړي!"
+
+#: templates/attendance/view_device.html:293
+msgid "Yes, delete"
+msgstr "هو، حذف کړئ"
+
+#: templates/attendance/view_device.html:309
+msgid "Network response was not ok"
+msgstr "مهرباني وکړئ د وسیلې اتصال وڅیړئ."
+
+#: templates/attendance/view_device.html:314
+msgid "Failed to delete users"
+msgstr "د کاروونکو معلوماتو حذف کول ناکام شول"
+
+#: templates/attendance/view_device.html:326
+msgid "Done"
+msgstr "ترسره شو"
+
+#: templates/attendance/view_device.html:327
+msgid "Users deleted successfully"
+msgstr "د کاروونکو معلومات په بریالیتوب سره حذف شول"
+
+#: templates/attendance/view_device.html:328
+#: templates/attendance/view_device.html:386
+#: templates/attendance/view_device.html:393
+#: templates/employees/employee_profile.html:1026
+#: templates/employees/employee_profile.html:1033
+#: templates/employees/employee_profile.html:1043
+#: templates/employees/employee_profile.html:1093
+#: templates/employees/employee_profile.html:1100
+#: templates/employees/employee_profile.html:1110
+#: templates/employees/employee_profile.html:1170
+#: templates/employees/employee_profile.html:1177
+#: templates/employees/employee_profile.html:1187
+#: templates/employees/employee_profile.html:1249
+#: templates/employees/employee_profile.html:1256
+#: templates/employees/employee_profile.html:1266
+#: templates/users/users.html:143
+msgid "OK"
+msgstr "تایید"
+
+#: templates/attendance/view_device.html:353
+msgid "Uploading..."
+msgstr "اپلوډ کيږي..."
+
+#: templates/attendance/view_device.html:360
+msgid "Uploading all employee data to device..."
+msgstr "د ټولو کارکوونکو معلومات د وسیلې لپاره اپلوډ کيږي..."
+
+#: templates/attendance/view_device.html:384
+msgid "Upload Complete"
+msgstr "اپلوډ بشپړ شو"
+
+#: templates/attendance/view_device.html:385
+msgid "All employee data has been uploaded successfully."
+msgstr "د ټولو کارکوونکو معلومات په بریالیتوب سره اپلوډ شول."
+
+#: templates/attendance/view_device.html:391
+msgid "Upload Failed"
+msgstr "اپلوډ ناکام شو"
+
+#: templates/attendance/view_device.html:404
+msgid "Something went wrong while checking progress."
+msgstr ""
+"د پرمختګ په چک کولو کې یوه ستونزه رامنځته شوه. مهرباني وکړئ بیا هڅه وکړئ!"
+
+#: templates/attendance/view_device.html:434
+#: templates/employees/employee_profile.html:837
+#: templates/employees/employee_profile.html:1099
+msgid "Upload failed."
+msgstr "اپلوډ ناکام شو."
+
+#: templates/attendance/view_device.html:446
+#: templates/employees/employee_profile.html:1042
+#: templates/employees/employee_profile.html:1109
+#: templates/employees/employee_profile.html:1186
+#: templates/employees/employee_profile.html:1265
+msgid "Something went wrong."
+msgstr "یو څه ستونزه رامنځته شوه."
+
+#: templates/components/toast-success.html:6 templates/components/toast.html:10
+#: templates/employees/employee_profile.html:780
+#: templates/employees/employee_profile.html:815
+#: templates/employees/employee_profile.html:947
+#: templates/employees/employee_profile.html:1024
+#: templates/employees/employee_profile.html:1091
+#: templates/employees/employee_profile.html:1168
+#: templates/employees/employees.html:104 templates/users/users.html:98
+msgid "Success"
+msgstr "بریالیتوب"
+
+#: templates/components/toast-success.html:7
+msgid "Just now"
+msgstr "همدا اوس"
+
+#: templates/components/toast.html:12
+msgid "Warning"
+msgstr "خبرداری"
+
+#: templates/components/toast.html:14
+msgid "Reminder"
+msgstr "یادونه"
+
+#: templates/core/dashboard.html:3 templates/includes/sidebar.html:88
+msgid "Dashboard"
+msgstr "لومړۍ پاڼه"
+
+#: templates/core/dashboard.html:67
+#, python-format
+msgid " There is one shift without a schedule for this year "
+msgid_plural " There are %(count)s shifts without a schedule for this year "
+msgstr[0] "د روان کال لپاره یوه شفټ بې له تقسیم اوقات څخه ده."
+msgstr[1] "د روان کال لپاره %(count)s شفټونه بې له تقسیم اوقات څخه دي."
+
+#: templates/core/dashboard.html:101
+#: templates/reports/daily_attendance_report.html:175
+msgid "Attend in Morning"
+msgstr "سهارنۍ حاضري"
+
+#: templates/core/dashboard.html:116
+#: templates/reports/daily_attendance_report.html:179
+msgid "Absent in Morning"
+msgstr "سهارنۍ غیرحاضري"
+
+#: templates/core/dashboard.html:118
+msgid "Late in Morning"
+msgstr "سهار ناوخته"
+
+#: templates/core/dashboard.html:133
+#: templates/reports/daily_attendance_report.html:183
+msgid "Attend in Evening"
+msgstr "ماښامنۍ حاضري"
+
+#: templates/core/dashboard.html:148
+#: templates/reports/daily_attendance_report.html:187
+msgid "Absent in Evening"
+msgstr "ماښامنۍ غیرحاضري"
+
+#: templates/core/dashboard.html:150
+msgid "Late in Evening"
+msgstr "ماښام ناوخته"
+
+#: templates/core/dashboard.html:163
+msgid "Attend vs Absent (This Month)"
+msgstr "د روانې میاشتې د حاضر او غیرحاضر کارکوونکو راپور"
+
+#: templates/core/dashboard.html:166 templates/core/dashboard.html:178
+msgid "View Report"
+msgstr "راپور لیدل"
+
+#: templates/core/dashboard.html:177
+msgid "Department-based today attendance"
+msgstr "د نن ورځې حاضري د څانګو پر بنسټ"
+
+#: templates/core/dashboard.html:202
+msgid "Attendance Report of"
+msgstr "د میاشتې د حاضرۍ راپور"
+
+#: templates/core/dashboard.html:253 templates/core/dashboard.html:295
+#: templates/reports/monthly_attendance_report.html:255
+msgid "Present"
+msgstr "حاضر"
+
+#: templates/core/dashboard.html:254 templates/core/dashboard.html:296
+#: templates/reports/monthly_attendance_report.html:218
+#: templates/reports/monthly_attendance_report.html:232
+#: templates/reports/monthly_attendance_report.html:258
+msgid "Absent"
+msgstr "غیرحاضر"
+
+#: templates/core/dashboard.html:256 templates/shifts/view_shift.html:75
+msgid "Day"
+msgstr "ورځ"
+
+#: templates/departments/add_department.html:3
+#: templates/departments/add_department.html:24
+#: templates/departments/add_department.html:36
+#: templates/departments/departments.html:41
+msgid "Add Department"
+msgstr "څانګه اضافه کول"
+
+#: templates/departments/departments.html:53 templates/shifts/shifts.html:54
+msgid "Archived Employees"
+msgstr "آرشیف شوي کارکوونکي"
+
+#: templates/departments/departments.html:54 templates/shifts/shifts.html:55
+msgid "Last Updated"
+msgstr "وروستی تازه"
+
+#: templates/departments/departments.html:204
+msgid "This will delete the department permanently."
+msgstr "خبرداری! دا به څانګه په دایمي توګه حذف کړي."
+
+#: templates/departments/departments.html:223
+msgid "Department has been deleted."
+msgstr "څانګه حذف شوه."
+
+#: templates/departments/departments.html:227
+msgid "Could not delete department."
+msgstr "څانګه حذف نه شوه کیدی."
+
+#: templates/departments/edit_department.html:3
+#: templates/departments/edit_department.html:24
+#: templates/departments/edit_department.html:36
+msgid "Edit Department"
+msgstr "د څانګې سمون"
+
+#: templates/employees/add_employee.html:3
+#: templates/employees/add_employee.html:20
+#: templates/employees/add_employee.html:32
+#: templates/employees/employees.html:45
+msgid "Add Employee"
+msgstr "کارکوونکی اضافه کول"
+
+#: templates/employees/add_employee.html:51
+#: templates/employees/edit_employee.html:44 templates/users/add_user.html:47
+#: templates/users/edit_user.html:43
+msgid "First Name"
+msgstr "نوم"
+
+#: templates/employees/add_employee.html:55
+#: templates/employees/edit_employee.html:48 templates/users/add_user.html:52
+#: templates/users/edit_user.html:48
+msgid "Last Name"
+msgstr "تخلص"
+
+#: templates/employees/add_employee.html:89
+#: templates/employees/edit_employee.html:76
+#: templates/employees/employee_profile.html:225
+#: templates/users/add_user.html:57 templates/users/edit_user.html:53
+#: templates/users/login.html:90 templates/users/users.html:52
+msgid "Username"
+msgstr "د کاروونکي نوم"
+
+#: templates/employees/add_employee.html:93
+#: templates/employees/edit_employee.html:80
+#: templates/employees/employee_profile.html:212
+#: templates/users/add_user.html:62 templates/users/edit_user.html:58
+#: templates/users/users.html:53
+msgid "Email"
+msgstr "بریښنالیک"
+
+#: templates/employees/add_employee.html:98
+#: templates/employees/employee_profile.html:625
+#: templates/users/add_user.html:69 templates/users/login.html:93
+msgid "Password"
+msgstr "پټنوم"
+
+#: templates/employees/add_employee.html:103
+#: templates/employees/edit_employee.html:88
+#: templates/employees/employee_profile.html:629
+#: templates/users/add_user.html:74 templates/users/edit_user.html:69
+msgid "At least 1 uppercase, 1 lowercase, and 1 number"
+msgstr "لږ تر لږه ۱ لوی توری، ۱ کوچنی توری او ۱ شمېره په انګلیسي ژبه"
+
+#: templates/employees/add_employee.html:113
+#: templates/employees/edit_employee.html:97
+#: templates/employees/employee_profile.html:638
+#: templates/users/add_user.html:84
+msgid "Confirm Password"
+msgstr "پټنوم تایید کړئ"
+
+#: templates/employees/add_employee.html:128
+#: templates/employees/edit_employee.html:109
+#: templates/employees/employee_profile.html:204
+#: templates/reports/employee_report_form.html:79
+#: templates/users/add_user.html:104 templates/users/edit_user.html:99
+#: templates/users/users.html:56 users/models.py:34
+msgid "Gender"
+msgstr "جنس"
+
+#: templates/employees/add_employee.html:130
+#: templates/employees/edit_employee.html:111 templates/users/add_user.html:106
+#: templates/users/edit_user.html:101
+msgid "Select Gender"
+msgstr "جنس وټاکئ"
+
+#: templates/employees/add_employee.html:151
+#: templates/employees/add_employee.html:302
+#: templates/employees/edit_employee.html:131
+#: templates/employees/edit_employee.html:263
+#: templates/reports/employee_report_form.html:54
+#: templates/reports/employee_report_form.html:160
+#: templates/reports/permanent_absent_form.html:122
+msgid "Select Department"
+msgstr "څانګه وټاکئ"
+
+#: templates/employees/add_employee.html:160
+#: templates/employees/edit_employee.html:139
+#: templates/employees/employee_profile.html:330
+#: templates/users/add_user.html:113 templates/users/edit_user.html:108
+#: templates/users/users.html:55
+msgid "Role"
+msgstr "رول"
+
+#: templates/employees/add_employee.html:162
+#: templates/employees/add_employee.html:294
+#: templates/employees/edit_employee.html:141
+#: templates/employees/edit_employee.html:256 templates/users/add_user.html:115
+#: templates/users/edit_user.html:110
+msgid "Select a Role"
+msgstr "رول وټاکئ"
+
+#: templates/employees/add_employee.html:172
+#: templates/employees/add_employee.html:310
+#: templates/employees/edit_employee.html:151
+#: templates/employees/edit_employee.html:270
+#: templates/reports/employee_report_form.html:171
+msgid "Select Shift"
+msgstr "شیفت وټاکئ"
+
+#: templates/employees/add_employee.html:195
+#: templates/employees/edit_employee.html:174
+msgid "Bast/Grade"
+msgstr "بست/درجه"
+
+#: templates/employees/add_employee.html:199
+#: templates/employees/edit_employee.html:178
+#: templates/employees/employee_profile.html:310
+msgid "Qadam"
+msgstr "قدم"
+
+#: templates/employees/add_employee.html:203
+msgid "Bast code"
+msgstr "د بست کوډ"
+
+#: templates/employees/add_employee.html:228
+#: templates/employees/edit_employee.html:117
+#: templates/reports/employee_report.html:182
+#: templates/reports/permanent_absent_report.html:184
+#: templates/users/add_user.html:99 templates/users/edit_user.html:94
+#: users/models.py:28
+msgid "Phone Number"
+msgstr "د تلیفون شمېره"
+
+#: templates/employees/add_employee.html:233
+#: templates/employees/edit_employee.html:206 templates/users/add_user.html:123
+#: templates/users/edit_user.html:120
+msgid "Profile Picture"
+msgstr "د پروفایل انځور"
+
+#: templates/employees/add_employee.html:238
+#: templates/employees/edit_employee.html:210
+msgid "Full Address"
+msgstr "بشپړه پته"
+
+#: templates/employees/add_employee.html:239
+#: templates/employees/edit_employee.html:211
+msgid "Street, City, Province, Postal code…"
+msgstr "کوڅه، ښار، ولایت، د پوست کوډ..."
+
+#: templates/employees/edit_employee.html:4
+#: templates/employees/edit_employee.html:18
+#: templates/employees/edit_employee.html:30
+msgid "Edit Employee"
+msgstr "د کارکوونکي سمون"
+
+#: templates/employees/edit_employee.html:86 templates/users/edit_user.html:64
+msgid "New Password"
+msgstr "نوی پټنوم"
+
+#: templates/employees/edit_employee.html:88
+msgid "Leave blank to keep current"
+msgstr "د اوسني پټنوم ساتلو لپاره خالي پرېږدئ"
+
+#: templates/employees/edit_employee.html:99
+msgid "Repeat new password"
+msgstr "نوی پټنوم تکرار کړئ"
+
+#: templates/employees/emp_archive.html:31
+#: templates/employees/emp_archive.html:42
+msgid "Employees in Archive"
+msgstr "آرشیف شوي کارکوونکي"
+
+#: templates/employees/emp_archive.html:53
+#: templates/employees/employee_profile.html:270
+#: templates/employees/employees.html:58
+msgid "Position"
+msgstr "د دندې عنوان"
+
+#: templates/employees/emp_archive.html:56
+#: templates/employees/employee_profile.html:216
+#: templates/employees/employees.html:61 templates/users/users.html:54
+msgid "Phone"
+msgstr "تلیفون"
+
+#: templates/employees/emp_archive.html:88
+#: templates/employees/employees.html:130
+msgid "This will delete the employee and their user account."
+msgstr "خبرداری! دا به کارکوونکی او د هغه د کاروونکي حساب حذف کړي."
+
+#: templates/employees/emp_archive.html:109
+#: templates/employees/employees.html:151
+msgid "Employee has been deleted."
+msgstr "کارکوونکی حذف شو."
+
+#: templates/employees/emp_archive.html:113
+#: templates/employees/employees.html:155
+msgid "Could not delete employee."
+msgstr "کارکوونکی حذف نه شو کیدی."
+
+#: templates/employees/emp_archive.html:117
+#: templates/employees/employees.html:159
+msgid "Server error while deleting."
+msgstr "د حذف کولو پر مهال د سرور تېروتنه."
+
+#: templates/employees/employee_profile.html:4
+#: templates/employees/employee_profile.html:47
+#: templates/includes/header.html:106
+msgid "Profile"
+msgstr "پروفایل"
+
+#: templates/employees/employee_profile.html:24
+msgid "Employee Profile"
+msgstr "د کارکوونکي پروفایل"
+
+#: templates/employees/employee_profile.html:61
+msgid "Biometric"
+msgstr "بایومتریک معلومات"
+
+#: templates/employees/employee_profile.html:69
+#: templates/employees/employee_profile.html:605
+msgid "Change Password"
+msgstr "پټنوم بدلول"
+
+#: templates/employees/employee_profile.html:77
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: templates/employees/employee_profile.html:99
+msgid "Employee image"
+msgstr "د کارکوونکي انځور"
+
+#: templates/employees/employee_profile.html:129
+msgid "Leave in"
+msgstr "رخصتي په"
+
+#: templates/employees/employee_profile.html:142
+#: templates/employees/employee_profile.html:146
+msgid "days"
+msgstr "ورځې"
+
+#: templates/employees/employee_profile.html:181
+msgid "Personal Details"
+msgstr "شخصي معلومات"
+
+#: templates/employees/employee_profile.html:192
+msgid "Father Name"
+msgstr "د پلار نوم"
+
+#: templates/employees/employee_profile.html:200
+msgid "Grand Father Name"
+msgstr "د نیکه نوم"
+
+#: templates/employees/employee_profile.html:242
+msgid "Education Level"
+msgstr "د زده کړو کچه"
+
+#: templates/employees/employee_profile.html:263
+msgid "Employment Details"
+msgstr "د دندې معلومات"
+
+#: templates/employees/employee_profile.html:275
+msgid "Head of department"
+msgstr "د څانګې مشر"
+
+#: templates/employees/employee_profile.html:306
+msgid "Bast"
+msgstr "بست"
+
+#: templates/employees/employee_profile.html:340
+msgid "Extra Info"
+msgstr "اضافي معلومات"
+
+#: templates/employees/employee_profile.html:361
+msgid "Select Document"
+msgstr "سند وټاکئ"
+
+#: templates/employees/employee_profile.html:366
+msgid "Optional note"
+msgstr "اختیاري یادداشت"
+
+#: templates/employees/employee_profile.html:370
+msgid "Upload"
+msgstr "اپلوډ"
+
+#: templates/employees/employee_profile.html:384
+msgid "File"
+msgstr "فایل"
+
+#: templates/employees/employee_profile.html:411
+msgid "No documents uploaded."
+msgstr "هیڅ سند اپلوډ شوی نه دی."
+
+#: templates/employees/employee_profile.html:432
+#: templates/employees/employee_profile.html:468
+msgid "Card"
+msgstr "کارت"
+
+#: templates/employees/employee_profile.html:438
+msgid "Download from Devices"
+msgstr "له وسیلو څخه ډاونلوډ"
+
+#: templates/employees/employee_profile.html:441
+msgid "Upload to Devices"
+msgstr "وسیلو ته اپلوډ"
+
+#: templates/employees/employee_profile.html:444
+msgid "Delete from Devices"
+msgstr "له وسیلو څخه حذف"
+
+#: templates/employees/employee_profile.html:448
+msgid "Delete from Database"
+msgstr "له ډیټابیس څخه حذف"
+
+#: templates/employees/employee_profile.html:458
+msgid "Biometric Info"
+msgstr "بایومتریک معلومات"
+
+#: templates/employees/employee_profile.html:479
+msgid "No Card"
+msgstr "کارت شتون نلري"
+
+#: templates/employees/employee_profile.html:507
+msgid "No Face"
+msgstr "مخ شتون نلري"
+
+#: templates/employees/employee_profile.html:615
+msgid "Old Password"
+msgstr "پخوانی پټنوم"
+
+#: templates/employees/employee_profile.html:652
+msgid "New password must contain"
+msgstr "نوی پټنوم باید لاندې موارد ولري"
+
+#: templates/employees/employee_profile.html:654
+msgid "At least 1 lower letter (a-z)"
+msgstr "لږ تر لږه ۱ کوچنی توری (a-z)"
+
+#: templates/employees/employee_profile.html:655
+msgid "At least 1 uppercase letter(A-Z)"
+msgstr "لږ تر لږه ۱ لوی توری (A-Z)"
+
+#: templates/employees/employee_profile.html:656
+msgid "At least 1 number (0-9)"
+msgstr "لږ تر لږه ۱ شمېره (0-9)"
+
+#: templates/employees/employee_profile.html:657
+msgid "At least 1 special characters"
+msgstr "لږ تر لږه ۱ ځانګړی توري"
+
+#: templates/employees/employee_profile.html:664
+msgid "Update Password"
+msgstr "پټنوم تازه کول"
+
+#: templates/employees/employee_profile.html:676 templates/users/logs.html:55
+#: templates/users/logs.html:92
+msgid "Action"
+msgstr "اقدام"
+
+#: templates/employees/employee_profile.html:679
+msgid "Remove from archive"
+msgstr "له آرشیف څخه لرې کول"
+
+#: templates/employees/employee_profile.html:681
+msgid "Send to archive"
+msgstr "آرشیف ته لېږل"
+
+#: templates/employees/employee_profile.html:781
+msgid "Password updated successfully"
+msgstr "پټنوم په بریالیتوب سره تازه شو"
+
+#: templates/employees/employee_profile.html:792
+msgid "Server error, please try again later."
+msgstr "د سرور تېروتنه، مهرباني وکړئ وروسته بیا هڅه وکړئ."
+
+#: templates/employees/employee_profile.html:857
+msgid "Document uploaded."
+msgstr "سند اپلوډ شو."
+
+#: templates/employees/employee_profile.html:859
+#: templates/employees/employee_profile.html:901
+#: templates/employees/employee_profile.html:969
+msgid "Server error."
+msgstr "د سرور تېروتنه."
+
+#: templates/employees/employee_profile.html:873
+msgid "This will delete the file permanently."
+msgstr "خبرداری! دا به فایل په دایمي توګه حذف کړي."
+
+#: templates/employees/employee_profile.html:896
+msgid "Document deleted."
+msgstr "سند حذف شو."
+
+#: templates/employees/employee_profile.html:928
+msgid "Please provide a reason for archiving."
+msgstr "مهرباني وکړئ د آرشیف کولو دلیل ولیکئ."
+
+#: templates/employees/employee_profile.html:949
+msgid "Employee archived."
+msgstr "کارکوونکی د آرشیف لیست ته اضافه شو."
+
+#: templates/employees/employee_profile.html:950
+msgid "Employee unarchived."
+msgstr "کارکوونکی له آرشیف لیست څخه ووت."
+
+#: templates/employees/employee_profile.html:959
+msgid "Operation failed."
+msgstr "عملیات ناکام شول."
+
+#: templates/employees/employee_profile.html:988
+#: templates/employees/employee_profile.html:1058
+#: templates/employees/employee_profile.html:1137
+msgid "Please wait"
+msgstr "مهرباني وکړئ انتظار وکړئ"
+
+#: templates/employees/employee_profile.html:993
+msgid "Downloading biometric data..."
+msgstr "د بایومتریک معلوماتو ډاونلوډ کيږي..."
+
+#: templates/employees/employee_profile.html:1025
+msgid "Download completed."
+msgstr "ډاونلوډ بشپړ شو."
+
+#: templates/employees/employee_profile.html:1032
+msgid "Download failed."
+msgstr "ډاونلوډ ناکام شو."
+
+#: templates/employees/employee_profile.html:1063
+msgid "Uploading biometric data..."
+msgstr "د بایومتریک معلوماتو اپلوډ کيږي..."
+
+#: templates/employees/employee_profile.html:1092
+msgid "Upload completed."
+msgstr "اپلوډ بشپړ شو."
+
+#: templates/employees/employee_profile.html:1130
+msgid "This will permanently delete the biometric data for the selected type."
+msgstr "دا به د ټاکل شوي ډول لپاره بایومتریک معلومات په دایمي توګه حذف کړي."
+
+#: templates/employees/employee_profile.html:1142
+msgid "Deleting biometric data..."
+msgstr "د بایومتریک معلوماتو حذف کيږي..."
+
+#: templates/employees/employee_profile.html:1169
+msgid "Data deleted."
+msgstr "معلومات حذف شول."
+
+#: templates/employees/employee_profile.html:1176
+msgid "Delete failed."
+msgstr "حذف ناکام شو."
+
+#: templates/employees/employee_profile.html:1207
+msgid "This will permanently delete the biometric data from the database."
+msgstr "دا به د ډیټابیس څخه بایومتریک معلومات په دایمي توګه حذف کړي."
+
+#: templates/employees/employee_profile.html:1216
+msgid "Deleting..."
+msgstr "حذف کيږي..."
+
+#: templates/employees/employee_profile.html:1221
+msgid "Please wait while we delete the biometric data..."
+msgstr "مهرباني وکړئ انتظار وکړئ تر څو بایومتریک معلومات حذف شي..."
+
+#: templates/employees/employee_profile.html:1248
+msgid "Biometric data deleted successfully."
+msgstr "بایومتریک معلومات په بریالیتوب سره حذف شول."
+
+#: templates/employees/employee_profile.html:1255
+msgid "Failed to delete biometric data."
+msgstr "د بایومتریک معلوماتو حذف کول ناکام شول."
+
+#: templates/employees/employees.html:105
+msgid "Employee status updated successfully."
+msgstr "د کارمند حالت تازه شو."
+
+#: templates/employees/employees.html:113
+msgid "Failed to update status"
+msgstr "د حالت تازه کول ناکامه وو."
+
+#: templates/includes/header.html:71
+msgid "Dark"
+msgstr "تیاره"
+
+#: templates/includes/header.html:77
+msgid "Light"
+msgstr "روښانه"
+
+#: templates/includes/header.html:83
+msgid "Default"
+msgstr "اصلي"
+
+#: templates/includes/header.html:138 templates/includes/sidebar.html:73
+msgid "Logout"
+msgstr "له سیسټم څخه وتل"
+
+#: templates/includes/sidebar.html:8
+msgid "OnTime System"
+msgstr "د آنټایم حاضرۍ سیسټم"
+
+#: templates/includes/sidebar.html:49
+msgid "No Role"
+msgstr "هېڅ رول"
+
+#: templates/includes/sidebar.html:69
+msgid "My Account"
+msgstr "زما حساب"
+
+#: templates/includes/sidebar.html:99
+msgid "My Profile"
+msgstr "زما پروفایل"
+
+#: templates/includes/sidebar.html:126
+msgid "Archive"
+msgstr "آرشیف"
+
+#: templates/includes/sidebar.html:155
+msgid "Vacations"
+msgstr "رخصتۍ"
+
+#: templates/includes/sidebar.html:198
+msgid "Make Absent"
+msgstr "غیرحاضر کول"
+
+#: templates/includes/sidebar.html:209
+msgid "Mark Present"
+msgstr "حاضر کول"
+
+#: templates/includes/sidebar.html:216
+msgid "Reports"
+msgstr "راپورونه"
+
+#: templates/includes/sidebar.html:226
+#: templates/reports/check_attendance_form.html:3
+#: templates/reports/daily_attendance_form.html:3
+msgid "Check Attendance"
+msgstr "د ورځنۍ حاضرۍ معاینه"
+
+#: templates/includes/sidebar.html:237
+#: templates/reports/check_attendance_form.html:53
+#: templates/reports/check_attendance_form.html:66
+#: templates/reports/daily_attendance_form.html:19
+#: templates/reports/daily_attendance_form.html:32
+msgid "Daily Attendance"
+msgstr "ورځنۍ حاضري"
+
+#: templates/includes/sidebar.html:281
+msgid "Permanent Absent"
+msgstr "دایمي غیرحاضران"
+
+#: templates/includes/sidebar.html:288
+msgid "Setup"
+msgstr "تنظیمات"
+
+#: templates/includes/sidebar.html:307
+msgid "Users Management"
+msgstr "د کاروونکو مدیریت"
+
+#: templates/includes/sidebar.html:322 templates/users/add_role.html:15
+#: templates/users/edit_role.html:17 templates/users/roles.html:19
+#: templates/users/roles.html:29
+msgid "Roles"
+msgstr "رولونه"
+
+#: templates/includes/sidebar.html:336 templates/users/logs.html:3
+#: templates/users/logs.html:40 templates/users/logs.html:48
+msgid "Activity Logs"
+msgstr "د کاروونکو فعالیتونه"
+
+#: templates/includes/sidebar.html:347
+msgid "Backup"
+msgstr "د ډیټابیس بیک اپ"
+
+#: templates/notifications/dropdown.html:11
+msgid "Notifications"
+msgstr "خبرتیاوې"
+
+#: templates/notifications/dropdown.html:15
+#: templates/notifications/dropdown.html:19
+msgid "Mark all read"
+msgstr "ټول لوستل شوي نښه کړئ"
+
+#: templates/notifications/dropdown.html:33
+msgid "Today"
+msgstr "نن"
+
+#: templates/notifications/dropdown.html:35
+msgid "Yesterday"
+msgstr "پرون"
+
+#: templates/notifications/dropdown.html:64
+msgid "ago"
+msgstr "مخکې"
+
+#: templates/notifications/dropdown.html:82
+#: templates/notifications/dropdown.html:86
+msgid "Clear all Notifications"
+msgstr "ټولې خبرتیاوې پاکې کړئ"
+
+#: templates/reports/attendance_report_form.html:43
+#: templates/reports/monthly_attendance_form.html:47
+msgid "All Employees"
+msgstr "ټول کارکوونکي"
+
+#: templates/reports/attendance_report_form.html:57
+#: templates/reports/make_absent_form.html:61
+#: templates/reports/make_present_form.html:61
+#: templates/reports/monthly_attendance_form.html:79
+msgid "Select Year"
+msgstr "کال وټاکئ"
+
+#: templates/reports/attendance_report_form.html:71
+#: templates/reports/make_absent_form.html:77
+#: templates/reports/make_present_form.html:77
+#: templates/reports/monthly_attendance_form.html:88
+msgid "Select Month"
+msgstr "میاشت وټاکئ"
+
+#: templates/reports/attendance_report_form.html:99
+#: templates/reports/monthly_attendance_form.html:102
+msgid "All Work Types"
+msgstr "د کار ټول ډولونه"
+
+#: templates/reports/attendance_report_form.html:111
+#: templates/reports/employee_report_form.html:114
+#: templates/reports/monthly_attendance_form.html:115
+#: templates/reports/permanent_absent_form.html:78
+msgid "Records per page"
+msgstr "په هره پاڼه د ننوتنو شمېر"
+
+#: templates/reports/attendance_report_form.html:117
+#: templates/reports/check_attendance_form.html:99
+#: templates/reports/daily_attendance_form.html:64
+#: templates/reports/employee_report_form.html:120
+#: templates/reports/monthly_attendance_form.html:122
+#: templates/reports/permanent_absent_form.html:84
+msgid "Show Report"
+msgstr "راپور ښودل"
+
+#: templates/reports/attendance_report_form.html:120
+#: templates/reports/check_attendance_form.html:100
+#: templates/reports/daily_attendance_form.html:65
+#: templates/reports/employee_report_form.html:123
+#: templates/reports/make_absent_form.html:120
+#: templates/reports/make_present_form.html:120
+#: templates/reports/monthly_attendance_form.html:125
+#: templates/reports/permanent_absent_form.html:87
+msgid "Reset"
+msgstr "پاکول"
+
+#: templates/reports/check_attendance_form.html:112
+msgid "Results"
+msgstr "نتیجه"
+
+#: templates/reports/check_attendance_form.html:120
+msgid "Time"
+msgstr "وخت"
+
+#: templates/reports/check_attendance_form.html:122
+#: templates/reports/daily_attendance_report.html:117
+msgid "Verification type"
+msgstr "د پېژندنې ډول"
+
+#: templates/reports/check_attendance_form.html:172
+#: templates/reports/check_attendance_form.html:185
+msgid "Please select an employee and date first."
+msgstr "مهرباني وکړئ لومړی یو کارمند او نیټه وټاکئ."
+
+#: templates/reports/check_attendance_form.html:217
+msgid "No Data"
+msgstr "معلومات نشته."
+
+#: templates/reports/check_attendance_form.html:218
+msgid "No attendance data for this selection."
+msgstr "په دې نیټه هیڅ اوسني معلومات شتون نلري."
+
+#: templates/reports/check_attendance_form.html:248
+msgid "Unexpected error occurred."
+msgstr "یو غیر متوقع تېروتنه رامنځته شوه."
+
+#: templates/reports/daily_attendance_report.html:115
+msgid "Morning"
+msgstr "سهار"
+
+#: templates/reports/daily_attendance_report.html:116
+msgid "Evening"
+msgstr "ماښام"
+
+#: templates/reports/employee_report.html:183
+msgid "Bast / Qua Dam"
+msgstr "بست / قدم"
+
+#: templates/reports/employee_report_form.html:81
+msgid "All Gender"
+msgstr "ټول جنسونه"
+
+#: templates/reports/make_absent_form.html:4
+#: templates/reports/make_absent_form.html:19
+#: templates/reports/make_absent_form.html:30
+msgid "Make Absent Employee"
+msgstr "کارکوونکی غیرحاضر کول"
+
+#: templates/reports/make_absent_form.html:103
+msgid "Absent Type"
+msgstr "د غیرحاضرۍ ډول"
+
+#: templates/reports/make_absent_form.html:156
+#: templates/reports/make_present_form.html:156
+msgid "Select Days"
+msgstr "ورځې وټاکئ"
+
+#: templates/reports/make_present_form.html:4
+#: templates/reports/make_present_form.html:19
+#: templates/reports/make_present_form.html:30
+msgid "Make Present Employee"
+msgstr "کارکوونکی حاضر کول"
+
+#: templates/reports/make_present_form.html:103
+msgid "Present Type"
+msgstr "د حاضرۍ ډول"
+
+#: templates/reports/monthly_attendance_report.html:212
+#: templates/reports/monthly_attendance_report.html:226
+#: templates/reports/monthly_attendance_report.html:263
+#: templates/reports/monthly_attendance_report.html:264
+msgid "Leave"
+msgstr "رخصتي"
+
+#: templates/reports/monthly_attendance_report.html:266
+#: templates/reports/monthly_attendance_report.html:267
+msgid "Late"
+msgstr "ناوخته"
+
+#: templates/reports/permanent_absent_form.html:112
+msgid "All Employee"
+msgstr "ټول کارکوونکي"
+
+#: templates/shifts/add_shift.html:3 templates/shifts/add_shift.html:22
+#: templates/shifts/add_shift.html:39 templates/shifts/shifts.html:41
+msgid "Add Shift"
+msgstr "شیفت اضافه کول"
+
+#: templates/shifts/edit_shift.html:3 templates/shifts/edit_shift.html:22
+#: templates/shifts/edit_shift.html:39
+msgid "Edit Shift"
+msgstr "د شیفت سمون"
+
+#: templates/shifts/shifts.html:50
+msgid "ID"
+msgstr "آی ډي"
+
+#: templates/shifts/shifts.html:74
+msgid "Manage Years"
+msgstr "د کلونو مدیریت"
+
+#: templates/shifts/shifts.html:90
+msgid "YYYY"
+msgstr "کال"
+
+#: templates/shifts/shifts.html:183
+msgid "View Years"
+msgstr "کلونه لیدل"
+
+#: templates/shifts/shifts.html:228
+msgid "This will delete the shift permanently."
+msgstr "خبرداری! دا به شیفت په دایمي توګه حذف کړي."
+
+#: templates/shifts/shifts.html:249
+msgid "Shift has been deleted."
+msgstr "شیفت حذف شو."
+
+#: templates/shifts/shifts.html:253
+msgid "Could not delete shift."
+msgstr "شیفت حذف نه شو کیدی."
+
+#: templates/shifts/shifts.html:276
+msgid "No schedules yet."
+msgstr "تر اوسه هیڅ مهال ویش شتون نلري."
+
+#: templates/shifts/shifts.html:290
+msgid "Delete this year"
+msgstr "دا کال حذف کړئ"
+
+#: templates/shifts/shifts.html:312
+msgid "Please enter a year."
+msgstr "مهرباني وکړئ یو کال داخل کړئ."
+
+#: templates/shifts/shifts.html:328
+msgid "Could not add year."
+msgstr "کال اضافه نه شو کیدی."
+
+#: templates/shifts/shifts.html:336
+msgid "Year added successfully."
+msgstr "کال په بریالیتوب سره اضافه شو."
+
+#: templates/shifts/shifts.html:348
+msgid "Really delete this year and all its schedules?"
+msgstr "ایا واقعاً غواړئ دا کال او د هغه ټول مهال ویشونه حذف کړئ؟"
+
+#: templates/shifts/shifts.html:363
+msgid "Could not delete year."
+msgstr "کال حذف نه شو کیدی."
+
+#: templates/shifts/shifts.html:370
+msgid "Year deleted."
+msgstr "کال حذف شو."
+
+#: templates/shifts/view_shift.html:3
+msgid "Schedule"
+msgstr "مهال ویش"
+
+#: templates/shifts/view_shift.html:36
+msgid "Year:"
+msgstr "کال:"
+
+#: templates/shifts/view_shift.html:76
+msgid "Clock-In Start"
+msgstr "د ننوتلو پیل"
+
+#: templates/shifts/view_shift.html:77
+msgid "Clock-In End"
+msgstr "د ننوتلو پای"
+
+#: templates/shifts/view_shift.html:78
+msgid "Clock-Out Start"
+msgstr "د وتلو پیل"
+
+#: templates/shifts/view_shift.html:79
+msgid "Clock-Out End"
+msgstr "د وتلو پای"
+
+#: templates/shifts/view_shift.html:94 templates/shifts/view_shift.html:114
+#: templates/shifts/view_shift.html:134 templates/shifts/view_shift.html:154
+msgid "Copy this time"
+msgstr ""
+
+#: templates/shifts/view_shift.html:98 templates/shifts/view_shift.html:118
+#: templates/shifts/view_shift.html:138 templates/shifts/view_shift.html:158
+msgid "Paste into this field"
+msgstr ""
+
+#: templates/shifts/view_shift.html:102 templates/shifts/view_shift.html:122
+#: templates/shifts/view_shift.html:142 templates/shifts/view_shift.html:162
+msgid "Clear this field"
+msgstr ""
+
+#: templates/shifts/view_shift.html:181
+msgid "Save Changes"
+msgstr "بدلونونه ذخیره کول"
+
+#: templates/users/add_role.html:16 templates/users/add_role.html:30
+#: templates/users/roles.html:32
+msgid "Add Role"
+msgstr "رول اضافه کول"
+
+#: templates/users/add_role.html:48 templates/users/edit_role.html:53
+#: templates/users/roles.html:42
+msgid "Role Name"
+msgstr "د رول نوم"
+
+#: templates/users/add_role.html:55 templates/users/edit_role.html:60
+#: templates/users/roles.html:43
+msgid "Permissions"
+msgstr "اجازې"
+
+#: templates/users/add_role.html:60 templates/users/edit_role.html:65
+msgid "Select / Unselect All"
+msgstr "ټول وټاکئ / ټول لغوه کړئ"
+
+#: templates/users/add_user.html:15 templates/users/add_user.html:28
+#: templates/users/users.html:39
+msgid "Add User"
+msgstr "کاروونکی اضافه کول"
+
+#: templates/users/add_user.html:64
+msgid ""
+"The domain portion of the email address is invalid (the portion after the @)."
+msgstr "د بریښنالیک پتې د ډومین برخه ناسمه ده (له @ وروسته برخه)."
+
+#: templates/users/edit_role.html:3 templates/users/edit_role.html:20
+#: templates/users/edit_role.html:33
+msgid "Edit Role"
+msgstr "د رول سمون"
+
+#: templates/users/edit_user.html:15 templates/users/edit_user.html:28
+msgid "Edit User"
+msgstr "د کاروونکي سمون"
+
+#: templates/users/edit_user.html:79
+msgid "Confirm New Password"
+msgstr "نوی پټنوم تایید کړئ"
+
+#: templates/users/edit_user.html:122
+msgid "Leave blank to keep the current profile picture"
+msgstr "د اوسني پروفایل انځور ساتلو لپاره خالي پرېږدئ"
+
+#: templates/users/login.html:7 templates/users/login.html:103
+msgid "Login"
+msgstr "د ننوتلو سیسټم"
+
+#: templates/users/login.html:86
+msgid "Welcome to OnTime Attendance System"
+msgstr "د آنټایم حاضرۍ سیسټم ته ښه راغلاست"
+
+#: templates/users/login.html:99
+msgid "Remember me?"
+msgstr "ما په یاد وساتئ؟"
+
+#: templates/users/login.html:119
+msgid "Thank You for Using OnTime System!"
+msgstr "له تاسو څخه د آنټایم سیسټم کارولو له امله مننه کوو!"
+
+#: templates/users/login.html:121 templates/users/login.html:143
+msgid "Close"
+msgstr "بندول"
+
+#: templates/users/login.html:125
+msgid ""
+"We’re grateful to have you as part of the OnTime family! If you enjoy using "
+"our system, please let your friends and colleagues know about us. Your "
+"feedback and recommendations help us grow and improve."
+msgstr ""
+"موږ مننه کوو چې تاسو د آنټایم کورنۍ برخه یاست! که تاسو زموږ د سیسټم کارولو "
+"څخه خوند اخلئ، مهرباني وکړئ دا سیسټم خپلو ملګرو او همکارانو ته معرفي کړئ. "
+"ستاسو نظرونه او وړاندیزونه موږ سره مرسته کوي چې دا سیسټم ښه کړو."
+
+#: templates/users/login.html:151
+msgid "Help"
+msgstr "مرسته"
+
+#: templates/users/login.html:238
+msgid "Network error. Please try again."
+msgstr "د شبکې تېروتنه. مهرباني وکړئ بیا هڅه وکړئ."
+
+#: templates/users/logs.html:54 templates/users/logs.html:88 users/models.py:50
+msgid "User"
+msgstr "کاروونکی"
+
+#: templates/users/logs.html:56 templates/users/logs.html:108
+msgid "Changes"
+msgstr "بدلونونه"
+
+#: templates/users/logs.html:58 templates/users/logs.html:100
+msgid "Browser"
+msgstr "براوزر"
+
+#: templates/users/logs.html:59 templates/users/logs.html:104
+msgid "Timestamp"
+msgstr "د ثبت وخت"
+
+#: templates/users/logs.html:75
+msgid "Log Details"
+msgstr "د ثبت جزئیات"
+
+#: templates/users/roles.html:149
+msgid "This will delete the role permanently."
+msgstr "خبرداری! دا به رول په دایمي توګه حذف کړي."
+
+#: templates/users/roles.html:170
+msgid "Role has been deleted."
+msgstr "رول حذف شو."
+
+#: templates/users/roles.html:174
+msgid "Could not delete role."
+msgstr "رول حذف نه شو کیدی."
+
+#: templates/users/users.html:57
+msgid "Date Joined"
+msgstr "د ننوتلو نېټه"
+
+#: templates/users/users.html:115
+msgid "Do you really want to delete this user?"
+msgstr "ایا واقعاً غواړئ دا کاروونکی حذف کړئ؟"
+
+#: templates/users/users.html:141
+msgid "User has been deleted."
+msgstr "کاروونکی حذف شو."
+
+#: templates/users/users.html:152
+msgid "There was a problem deleting the user."
+msgstr "د کاروونکي په حذف کولو کې ستونزه رامنځته شوه."
+
+#: templates/users/users.html:161
+msgid "There was a problem with the server."
+msgstr "د سرور سره ستونزه رامنځته شوه."
+
+#: templates/users/users.html:169
+msgid "Cancelled"
+msgstr "لغوه شو"
+
+#: templates/users/users.html:170
+msgid "Your user is safe"
+msgstr "ستاسو کاروونکی خوندي دی"
+
+#: templates/users/users.html:303
+msgid "There was an error processing your request. Please try again."
+msgstr ""
+"ستاسو د غوښتنې په پروسس کولو کې تېروتنه رامنځته شوه. مهرباني وکړئ بیا هڅه "
+"وکړئ."
+
+#: users/models.py:15
+msgid "Normal"
+msgstr "عادي"
+
+#: users/models.py:20
+msgid "Account Type"
+msgstr "د حساب ډول"
+
+#: users/models.py:24
+msgid "Distinguish between ordinary users vs. employees"
+msgstr "د عادي کاروونکو او کارکوونکو ترمنځ توپیر"
+
+#: users/models.py:31
+msgid "e.g. +1234567890"
+msgstr "لکه: +۱۲۳۴۵۶۷۸۹۰"
+
+#: users/models.py:43
+msgid "Profile Photo"
+msgstr "د پروفایل انځور"
+
+#: users/views.py:49
+msgid "The username is incorrect."
+msgstr "د کاروونکي نوم ناسم دی."
+
+#: users/views.py:53
+msgid "Your account is deactivated. Please contact the administrator."
+msgstr "ستاسو حساب غیرفعال شوی دی. مهرباني وکړئ له مدیر سره اړیکه ونیسئ."
+
+#: users/views.py:67
+msgid "The password is incorrect."
+msgstr "پټنوم ناسم دی."
+
+#: users/views.py:77
+msgid "Username does not exist."
+msgstr "د کاروونکي نوم شتون نلري."
+
+#: users/views.py:190 users/views.py:210
+msgid "User not found"
+msgstr "کاروونکی ونه موندل شو"
+
+#: users/views.py:267
+msgid "User successfully added."
+msgstr "کاروونکی په بریالیتوب سره اضافه شو."
+
+#: users/views.py:334
+msgid "User successfully updated."
+msgstr "کاروونکی په بریالیتوب سره تازه شو."
+
+#: users/views.py:418 users/views.py:455
+msgid "Role name is required."
+msgstr "د رول نوم اړین دی."
+
+#: users/views.py:420 users/views.py:457
+msgid "A role with that name already exists."
+msgstr "د دې نوم سره یو رول له مخکې شته دی."
+
+#: users/views.py:459
+msgid "You cannot rename a protected role."
+msgstr "تاسو د دې دندې نوم نشئ بدلولی."
+
+#: users/views.py:463
+msgid "Role name is protected and cannot be changed."
+msgstr "د دې مقام نوم نشي بدلیدلی."
+
+#: users/views.py:471
+#, python-brace-format
+msgid "Role “{name}” has been updated."
+msgstr "رول «{name}» تازه شو."
+
+#: users/views.py:505
+msgid "This role is protected and cannot be deleted."
+msgstr "تاسو دا موقف نشئ حذف کولی."
+
+#: users/views.py:512
+msgid "Cannot delete role: it’s still assigned to one or more users."
+msgstr "رول حذف نه شي کیدی: دا لاهم یو یا ډیرو کاروونکو ته ټاکل شوی دی."
+
+#: users/views.py:519
+msgid "Role not found"
+msgstr "رول ونه موندل شو"
+
+#~ msgid "صبح"
+#~ msgstr "سهار"
+
+#~ msgid "عصر"
+#~ msgstr "ماښام"
+
+#~ msgid "نوعیت شناسایی"
+#~ msgstr "د پیژندنې ډول"

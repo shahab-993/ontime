@@ -1,0 +1,13 @@
+@charset "utf-8"; /* custom-rtl.css */
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Supports all weights from 100 to 900 */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+}

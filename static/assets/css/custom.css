@@ -1,0 +1,79 @@
+.custom-switch {
+    height: 30px;
+    width: 50px !important;
+}
+
+/* Apply a green background with readable text */
+.table-row-success {
+    background-color: #C8E6C9 !important; /* Green background */
+    color: #fff !important; /* White text */
+}
+
+.table-row-warning {
+    background-color: #FFECB3 !important; /* Green background */
+    color: #fff !important; /* White text */
+}
+
+
+.filter-container {
+    direction: ltr; /* Keep  Ensure filter content order is consistent */
+}
+
+/* Keep filters at the end for both LTR and RTL */
+.d-flex.justify-content-end {
+    justify-content: flex-end !important; /* Force right alignment */
+}
+
+/* For RTL, keep the same alignment */
+[dir="rtl"] .d-flex.justify-content-end {
+    justify-content: flex-end !important; /* Still align to the left (end) in RTL */
+}
+
+/* Optional: Adjust gap and styling */
+.filter-container select,
+.filter-container button {
+    height: 48px; /* Consistent height */
+}
+
+/* Fix centering for offset classes in RTL */
+[dir="rtl"] .offset-md-3 {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/* Ensure centered columns remain centered in both LTR and RTL */
+.row > .col-md-6.offset-md-3 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Optional: General fix for any centered content using flexbox */
+.centered-form {
+    display: flex;
+    justify-content: center;
+}
+
+/* Apply to form containers if needed */
+[dir="rtl"] .row.col-md-6.offset-md-3 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Ensure no unexpected shifts in RTL for other offset classes */
+[dir="rtl"] [class*="offset-md-"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#offcanvasLeaveDetails .offcanvas-body table td{
+  white-space: normal;      /* allow wrapping */
+  word-break: break-word;   /* break long words if needed */
+}
+
+#offcanvasLeaveDetails .offcanvas-body #detail-requested-at,
+#offcanvasLeaveDetails .offcanvas-body #detail-processed-at {
+  direction: ltr;
+  unicode-bidi: embed;
+  /* optionally, ensure numbers/dates don’t wrap oddly: */
+  white-space: nowrap;
+}
